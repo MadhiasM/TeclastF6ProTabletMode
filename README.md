@@ -14,7 +14,8 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 ## Performance
 ### X-Axis
-- X-axis can be disregarded since it is same between base and display, only read Y and Z data
+- X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data
+- Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)
 
 ## Robustness
 - Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$)
@@ -25,4 +26,5 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 ## Modularity
 - // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
-- Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html). `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
+- Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html) with [Overview](https://www.freedesktop.org/software/systemd/man/latest/) or [udev_device_get_sysattr_value](https://www.freedesktop.org/software/systemd/man/latest/udev_device_get_sysattr_value.html#)
+- `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`

@@ -172,30 +172,29 @@ int main() {
         apply_mount_matrix(&base_matrix, raw_base, corrected_base);
         apply_mount_matrix(&display_matrix, raw_display, corrected_display);
 
+        /*
         // TODO: REMOVE
         // Calculate cosine of the angle between base and display accelerometer vectors
         float cos_angle = cosine_of_angle(corrected_base, corrected_display);
         float angle = acos(cos_angle)*360/(2 * PI); // TODO: REMOVE
         printf("Cosine of angle: %.2f\n", cos_angle);
         printf("Angle: %.2f°\n", angle);
+        */
 
-
+        /*
         float *normal_vec = cross_product(corrected_base, corrected_display); // TODO: Refactor
-
-        // using && since || is not accurate if the x acceleration is close to 0
-        int tablet_mode = same_sign(normal_vec[0], corrected_base[0]) && same_sign(normal_vec[0], corrected_display[0]);
+        printf("Normal Vector: X=%.2f, Y=%.2f, Z=%.2f\n",
+            normal_vec[0], normal_vec[1], normal_vec[1]);
+        */
 
         // efficient way
         // This is effectively the x-component of the normal vector (cross product) between base and display accelerometer vector
         // The x-Component is the rotational axis of the hinge, which means that base and display x componentent will be pretty simular.
         // More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
-        float normal_direction = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-        printf("Normal Vector: X=%.2f, Y=%.2f, Z=%.2f\n",
-            normal_vec[0], normal_vec[1], normal_vec[1]);
+        float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
 
-
-        // Check if in tablet mode based on cosine threshold
-        //int tablet_mode = (cos_angle < TABLET_MODE_THRESHOLD);
+        // Check if in tablet mode based on determinant sign
+        int tablet_mode = determinant > 0;
 
         // Trigger SW_TABLET_MODE
         if (set_tablet_mode(tablet_mode) < 0) {
