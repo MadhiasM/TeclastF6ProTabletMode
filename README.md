@@ -5,26 +5,21 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 # TODO
 ## Functionality
 ### Linear algebra
-Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
-  [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
+- Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
+- [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
 
 ## Tablet mode activation SW_TABLET_MODE
-Tablet mode activation not working, but it was working in previous version. Copy over state
+- Tablet mode activation not working, but it was working in previous version. Copy over state
 
 
 ## Performance
 ### X-Axis
-X-axis can be disregarded since it is same between base and display
-Only read Y and X data
+- X-axis can be disregarded since it is same between base and display, only read Y and Z data
 
 ## Robustness
-Angle Hysteresis
-Time hysteresis
-  if tabled mode disabled:
-    sleep
-  else:
-    check again before activating (time hysteresis)
-
+- Angle Activation Hysteresis (enable at $-\alpha°$, disable at +5°)
+Time hysteresis (if enable conditions are met: test again n times)
+Sleep (if enable conditions are not met: sleep for n secs)
 Low Pass Filter (if needed) on accel values
 
 
