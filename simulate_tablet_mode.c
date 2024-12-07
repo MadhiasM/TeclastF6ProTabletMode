@@ -1,10 +1,10 @@
 #include <stdio.h>
-//#include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <linux/input.h>
 #include <math.h>
 #include <string.h>
+#include <stdbool.h>
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
 #define SLEEP_TIME 1         // Time in seconds between checks
@@ -76,39 +76,19 @@ float *cross_product(const float vec1[3], const float vec2[3]) {
     return cross_product;
 }
 
-// TODO: REMOVE IF NOT NEEDED
-float spat_product(const float vec1[3], const float vec2[3], const float vec3[3]) {
-    return dot_product(cross_product(vec1, vec2), vec3);
+bool same_sign(float a, float b) {
+    return a * b >= 0.0f;
 }
 
 // Calculates the cosine of the angle between two vectors
 float cosine_of_angle(const float vec1[3], const float vec2[3]) {
     float dot = dot_product(vec1, vec2);
 
-    printf("Dot Product: %f\n", dot); // TODO: Remove
-
-    float *normal_vec = cross_product(vec1, vec2); // TODO: Refactor
-    printf("Normal Vector: "); // TODO: Remove
-    printf("X: %f, ", normal_vec[0]); // TODO: Remove
-    printf("Y: %f, ", normal_vec[1]); // TODO: Remove
-    printf("Z: %f\n", normal_vec[2]); // TODO: Remove
-    float spat_prod = spat_product(vec1, vec2, normal_vec);  // TODO: Refactor and rename vec1/2
-    //printf("Spat Product: %f\n", spat_prod);
-
-    //const float ref_vec[3] = {0, 0, 1};
-    //float orientation1 = dot_product(normal_vec, vec1);
-    //printf("Orientation: %f\n", orientation1);
-    //float orientation2 = dot_product(normal_vec, vec2);
-    //printf("Orientation: %f\n", orientation2);
-
     float mag1 = magnitude(vec1);
     float mag2 = magnitude(vec2);
     if (mag1 == 0 || mag2 == 0) {
         return 0.0f;  // Avoid division by zero
     }
-
-    float ang = acos(dot / (mag1 * mag2))*360/(2 * PI); // TODO: Remove
-    printf("Angle: %f\n", ang); // TODO: REMOVE
 
     return dot / (mag1 * mag2);
 }
@@ -191,11 +171,30 @@ int main() {
         apply_mount_matrix(&base_matrix, raw_base, corrected_base);
         apply_mount_matrix(&display_matrix, raw_display, corrected_display);
 
+        // TODO: REMOVE
         // Calculate cosine of the angle between base and display accelerometer vectors
         float cos_angle = cosine_of_angle(corrected_base, corrected_display);
+        float angle = acos(cos_angle)*360/(2 * PI); // TODO: REMOVE
+        printf("Cosine of angle: %.2f\n", cos_angle);
+        printf("Angle: %.2f°\n", angle);
+
+
+        float *normal_vec = cross_product(corrected_base, corrected_display); // TODO: Refactor
+
+        // using && since || is not accurate if the x acceleration is close to 0
+        int tablet_mode = same_sign(normal_vec[0], corrected_base[0]) && same_sign(normal_vec[0], corrected_display[0]);
+
+        // efficient way
+        // This is effectively the x-component of the normal vector (cross product) between base and display accelerometer vector
+        // The x-Component is the rotational axis of the hinge, which means that base and display x componentent will be pretty simular.
+        // More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
+        float normal_direction = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
+        printf("Normal Vector: X=%.2f, Y=%.2f, Z=%.2f\n",
+            normal_vec[0], normal_vec[1], normal_vec[1]);
+
 
         // Check if in tablet mode based on cosine threshold
-        int tablet_mode = (cos_angle < TABLET_MODE_THRESHOLD);
+        //int tablet_mode = (cos_angle < TABLET_MODE_THRESHOLD);
 
         // Trigger SW_TABLET_MODE
         if (set_tablet_mode(tablet_mode) < 0) {
@@ -207,8 +206,8 @@ int main() {
                corrected_base[0], corrected_base[1], corrected_base[2]);
         printf("Display Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_display[0], corrected_display[1], corrected_display[2]);
-        printf("Cosine of angle: %.2f\n", cos_angle);
         printf("Tablet mode: %s\n", tablet_mode ? "Enabled" : "Disabled");
+        printf("\n");
 
         // Sleep for a while before re-checking
         sleep(SLEEP_TIME);
