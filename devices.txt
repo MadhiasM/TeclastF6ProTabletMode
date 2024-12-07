@@ -1,0 +1,5674 @@
+Gerät: /sys/devices/LNXSYSTM:00
+  - Name: LNXSYSTM:00
+  - Pfad: /devices/LNXSYSTM:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/ACPI0008:00
+  - Name: ACPI0008:00
+  - Pfad: /devices/LNXSYSTM:00/ACPI0008:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/INT339B:00
+  - Name: INT339B:00
+  - Pfad: /devices/LNXSYSTM:00/INT339B:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/INT33D0:00
+  - Name: INT33D0:00
+  - Pfad: /devices/LNXSYSTM:00/INT33D0:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/INT3420:01
+  - Name: INT3420:01
+  - Pfad: /devices/LNXSYSTM:00/INT3420:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:00
+  - Name: LNXCPU:00
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:01
+  - Name: LNXCPU:01
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:02
+  - Name: LNXCPU:02
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:03
+  - Name: LNXCPU:03
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:04
+  - Name: LNXCPU:04
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:05
+  - Name: LNXCPU:05
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:06
+  - Name: LNXCPU:06
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:06
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXCPU:07
+  - Name: LNXCPU:07
+  - Pfad: /devices/LNXSYSTM:00/LNXCPU:07
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXPWRBN:00
+  - Name: LNXPWRBN:00
+  - Pfad: /devices/LNXSYSTM:00/LNXPWRBN:00
+  - Subsystem: acpi
+  - Treiber: button
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+  - Name: input3
+  - Pfad: /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3
+  - Name: event3
+  - Pfad: /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXPWRBN:00/wakeup/wakeup19
+  - Name: wakeup19
+  - Pfad: /devices/LNXSYSTM:00/LNXPWRBN:00/wakeup/wakeup19
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00
+  - Name: LNXSYBUS:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI000C:00
+  - Name: ACPI000C:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/ACPI000C:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI000C:00/wakeup/wakeup36
+  - Name: wakeup36
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/ACPI000C:00/wakeup/wakeup36
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT0E0C:00
+  - Name: INT0E0C:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT0E0C:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT33A1:00
+  - Name: INT33A1:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT33A1:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT33A1:00/wakeup/wakeup38
+  - Name: wakeup38
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT33A1:00/wakeup/wakeup38
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3400:00
+  - Name: INT3400:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3400:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3400:00/wakeup/wakeup37
+  - Name: wakeup37
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3400:00/wakeup/wakeup37
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3407:00
+  - Name: INT3407:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3407:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3408:00
+  - Name: INT3408:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3408:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3408:01
+  - Name: INT3408:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3408:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3409:00
+  - Name: INT3409:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3409:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3409:01
+  - Name: INT3409:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3409:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT340A:00
+  - Name: INT340A:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT340A:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT340B:00
+  - Name: INT340B:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT340B:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT340B:01
+  - Name: INT340B:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT340B:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT340E:00
+  - Name: INT340E:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT340E:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3420:00
+  - Name: INT3420:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3420:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/INT3470:00
+  - Name: INT3470:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/INT3470:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/LNXPOWER:1a
+  - Name: LNXPOWER:1a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/LNXPOWER:1a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00
+  - Name: PNP0A08:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/ABCD0000:00
+  - Name: ABCD0000:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/ABCD0000:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/ID9001:00
+  - Name: ID9001:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/ID9001:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT33A2:00
+  - Name: INT33A2:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT33A2:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3406:00
+  - Name: INT3406:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3406:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT343D:00
+  - Name: INT343D:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT343D:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT343E:00
+  - Name: INT343E:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT343E:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3440:00
+  - Name: INT3440:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3440:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3441:00
+  - Name: INT3441:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3441:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3441:00/FPNT_DIS:00
+  - Name: FPNT_DIS:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3441:00/FPNT_DIS:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3445:00
+  - Name: INT3445:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3445:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3446:00
+  - Name: INT3446:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3446:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3446:00/INT3474:00
+  - Name: INT3474:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3446:00/INT3474:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3447:00
+  - Name: INT3447:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3447:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3449:00
+  - Name: INT3449:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3449:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT344A:00
+  - Name: INT344A:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT344A:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT344B:00
+  - Name: INT344B:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT344B:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT344B:00/wakeup/wakeup28
+  - Name: wakeup28
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT344B:00/wakeup/wakeup28
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:01
+  - Name: INT3471:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:02
+  - Name: INT3471:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:03
+  - Name: INT3471:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:04
+  - Name: INT3471:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3471:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:01
+  - Name: INT3472:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:02
+  - Name: INT3472:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:03
+  - Name: INT3472:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:04
+  - Name: INT3472:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:05
+  - Name: INT3472:05
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:06
+  - Name: INT3472:06
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:06
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:07
+  - Name: INT3472:07
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:07
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:08
+  - Name: INT3472:08
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/INT3472:08
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:00
+  - Name: LNXPOWER:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:02
+  - Name: LNXPOWER:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:07
+  - Name: LNXPOWER:07
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:07
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:0d
+  - Name: LNXPOWER:0d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:0d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:10
+  - Name: LNXPOWER:10
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:10
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:1b
+  - Name: LNXPOWER:1b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXPOWER:1b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00
+  - Name: LNXVIDEO:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00
+  - Subsystem: acpi
+  - Treiber: video
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:00
+  - Name: device:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:01
+  - Name: device:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:02
+  - Name: device:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:03
+  - Name: device:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:04
+  - Name: device:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:05
+  - Name: device:05
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:06
+  - Name: device:06
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:06
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:07
+  - Name: device:07
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:07
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:08
+  - Name: device:08
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:08
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:09
+  - Name: device:09
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:09
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0a
+  - Name: device:0a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0b
+  - Name: device:0b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0c
+  - Name: device:0c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0d
+  - Name: device:0d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0e
+  - Name: device:0e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0f
+  - Name: device:0f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:10
+  - Name: device:10
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:10
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input9
+  - Name: input9
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input9
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input9/event7
+  - Name: event7
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input9/event7
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/wakeup/wakeup0
+  - Name: wakeup0
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/wakeup/wakeup0
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:02
+  - Name: PNP0C02:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:03
+  - Name: PNP0C02:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:04
+  - Name: PNP0C02:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:05
+  - Name: PNP0C02:05
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/PNP0C02:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11
+  - Name: device:11
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11/wakeup/wakeup1
+  - Name: wakeup1
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11/wakeup/wakeup1
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:12
+  - Name: device:12
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:12
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:12/device:13
+  - Name: device:13
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:12/device:13
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:14
+  - Name: device:14
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:14
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:14/device:15
+  - Name: device:15
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:14/device:15
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:16
+  - Name: device:16
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:16
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:16/device:17
+  - Name: device:17
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:16/device:17
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18
+  - Name: device:18
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/INT0800:00
+  - Name: INT0800:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/INT0800:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/INT3F0D:00
+  - Name: INT3F0D:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/INT3F0D:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/MSFT0001:00
+  - Name: MSFT0001:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/MSFT0001:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/MSFT0003:00
+  - Name: MSFT0003:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/MSFT0003:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0000:00
+  - Name: PNP0000:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0000:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0100:00
+  - Name: PNP0100:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0100:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0103:00
+  - Name: PNP0103:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0103:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0B00:00
+  - Name: PNP0B00:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0B00:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C02:00
+  - Name: PNP0C02:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C02:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C02:01
+  - Name: PNP0C02:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C02:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C04:00
+  - Name: PNP0C04:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C04:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00
+  - Name: PNP0C09:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00
+  - Subsystem: acpi
+  - Treiber: ec
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/ACPI0003:00
+  - Name: ACPI0003:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/ACPI0003:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/ACPI0003:00/wakeup/wakeup21
+  - Name: wakeup21
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/ACPI0003:00/wakeup/wakeup21
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT33D3:00
+  - Name: INT33D3:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT33D3:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT33D4:00
+  - Name: INT33D4:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT33D4:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT33D6:00
+  - Name: INT33D6:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT33D6:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:00
+  - Name: INT3403:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:01
+  - Name: INT3403:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:02
+  - Name: INT3403:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:03
+  - Name: INT3403:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:03/wakeup/wakeup39
+  - Name: wakeup39
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:03/wakeup/wakeup39
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:04
+  - Name: INT3403:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:05
+  - Name: INT3403:05
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:06
+  - Name: INT3403:06
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:06
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:07
+  - Name: INT3403:07
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:07
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:08
+  - Name: INT3403:08
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:08
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:09
+  - Name: INT3403:09
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3403:09
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3404:00
+  - Name: INT3404:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3404:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3404:01
+  - Name: INT3404:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/INT3404:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00
+  - Name: PNP0C0A:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00
+  - Subsystem: acpi
+  - Treiber: battery
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00/power_supply/BAT0
+  - Name: BAT0
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00/power_supply/BAT0
+  - Subsystem: power_supply
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00/power_supply/BAT0/hwmon1
+  - Name: hwmon1
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00/power_supply/BAT0/hwmon1
+  - Subsystem: hwmon
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00/wakeup/wakeup25
+  - Name: wakeup25
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:00/wakeup/wakeup25
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:01
+  - Name: PNP0C0A:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:02
+  - Name: PNP0C0A:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0A:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00
+  - Name: PNP0C0D:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00
+  - Subsystem: acpi
+  - Treiber: button
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00/input/input0
+  - Name: input0
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00/input/input0
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00/input/input0/event0
+  - Name: event0
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00/input/input0/event0
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00/wakeup/wakeup20
+  - Name: wakeup20
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/PNP0C09:00/PNP0C0D:00/wakeup/wakeup20
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/wakeup/wakeup13
+  - Name: wakeup13
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:18/wakeup/wakeup13
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19
+  - Name: device:19
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/device:1a
+  - Name: device:1a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/device:1a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/device:1a/LNXPOWER:01
+  - Name: LNXPOWER:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/device:1a/LNXPOWER:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/device:1a/wakeup/wakeup17
+  - Name: wakeup17
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/device:1a/wakeup/wakeup17
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/wakeup/wakeup8
+  - Name: wakeup8
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:19/wakeup/wakeup8
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1b
+  - Name: device:1b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1b/device:1c
+  - Name: device:1c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1b/device:1c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1b/device:1c/LNXPOWER:03
+  - Name: LNXPOWER:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1b/device:1c/LNXPOWER:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1d
+  - Name: device:1d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1d/device:1e
+  - Name: device:1e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1d/device:1e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1d/device:1e/LNXPOWER:04
+  - Name: LNXPOWER:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1d/device:1e/LNXPOWER:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1f
+  - Name: device:1f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1f/device:20
+  - Name: device:20
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1f/device:20
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1f/device:20/LNXPOWER:05
+  - Name: LNXPOWER:05
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:1f/device:20/LNXPOWER:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:21
+  - Name: device:21
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:21
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:21/device:22
+  - Name: device:22
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:21/device:22
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:21/device:22/LNXPOWER:06
+  - Name: LNXPOWER:06
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:21/device:22/LNXPOWER:06
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:23
+  - Name: device:23
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:23
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:23/device:24
+  - Name: device:24
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:23/device:24
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:23/device:24/LNXPOWER:08
+  - Name: LNXPOWER:08
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:23/device:24/LNXPOWER:08
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:25
+  - Name: device:25
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:25
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:25/device:26
+  - Name: device:26
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:25/device:26
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:25/device:26/LNXPOWER:09
+  - Name: LNXPOWER:09
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:25/device:26/LNXPOWER:09
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:27
+  - Name: device:27
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:27
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:27/device:28
+  - Name: device:28
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:27/device:28
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:27/device:28/LNXPOWER:0a
+  - Name: LNXPOWER:0a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:27/device:28/LNXPOWER:0a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:29
+  - Name: device:29
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:29
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:29/device:2a
+  - Name: device:2a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:29/device:2a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:29/device:2a/LNXPOWER:0b
+  - Name: LNXPOWER:0b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:29/device:2a/LNXPOWER:0b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2b
+  - Name: device:2b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2b/device:2c
+  - Name: device:2c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2b/device:2c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2b/device:2c/LNXPOWER:0c
+  - Name: LNXPOWER:0c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2b/device:2c/LNXPOWER:0c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2d
+  - Name: device:2d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2d/device:2e
+  - Name: device:2e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2d/device:2e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2d/device:2e/LNXPOWER:0e
+  - Name: LNXPOWER:0e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2d/device:2e/LNXPOWER:0e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2f
+  - Name: device:2f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2f/device:30
+  - Name: device:30
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2f/device:30
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2f/device:30/LNXPOWER:0f
+  - Name: LNXPOWER:0f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2f/device:30/LNXPOWER:0f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31
+  - Name: device:31
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/device:32
+  - Name: device:32
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/device:32
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/device:32/LNXPOWER:11
+  - Name: LNXPOWER:11
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/device:32/LNXPOWER:11
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/device:32/device:33
+  - Name: device:33
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:31/device:32/device:33
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34
+  - Name: device:34
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34/device:35
+  - Name: device:35
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34/device:35
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34/device:35/LNXPOWER:12
+  - Name: LNXPOWER:12
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:34/device:35/LNXPOWER:12
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:36
+  - Name: device:36
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:36
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:36/device:37
+  - Name: device:37
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:36/device:37
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:36/device:37/LNXPOWER:13
+  - Name: LNXPOWER:13
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:36/device:37/LNXPOWER:13
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:38
+  - Name: device:38
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:38
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:38/device:39
+  - Name: device:39
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:38/device:39
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:38/device:39/LNXPOWER:14
+  - Name: LNXPOWER:14
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:38/device:39/LNXPOWER:14
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a
+  - Name: device:3a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a/device:3b
+  - Name: device:3b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a/device:3b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a/device:3b/LNXPOWER:15
+  - Name: LNXPOWER:15
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3a/device:3b/LNXPOWER:15
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3c
+  - Name: device:3c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3c/device:3d
+  - Name: device:3d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3c/device:3d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3e
+  - Name: device:3e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3e/device:3f
+  - Name: device:3f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:3e/device:3f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:40
+  - Name: device:40
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:40
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:40/device:41
+  - Name: device:41
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:40/device:41
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:42
+  - Name: device:42
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:42
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:42/device:43
+  - Name: device:43
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:42/device:43
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:44
+  - Name: device:44
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:44
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:44/device:45
+  - Name: device:45
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:44/device:45
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:44/device:45/LNXPOWER:16
+  - Name: LNXPOWER:16
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:44/device:45/LNXPOWER:16
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46
+  - Name: device:46
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46/device:47
+  - Name: device:47
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46/device:47
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46/device:47/LNXPOWER:17
+  - Name: LNXPOWER:17
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:46/device:47/LNXPOWER:17
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:48
+  - Name: device:48
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:48
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:48/device:49
+  - Name: device:49
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:48/device:49
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:48/device:49/LNXPOWER:18
+  - Name: LNXPOWER:18
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:48/device:49/LNXPOWER:18
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4a
+  - Name: device:4a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4a/wakeup/wakeup14
+  - Name: wakeup14
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4a/wakeup/wakeup14
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4b
+  - Name: device:4b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4b/wakeup/wakeup16
+  - Name: wakeup16
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4b/wakeup/wakeup16
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4c
+  - Name: device:4c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d
+  - Name: device:4d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e
+  - Name: device:4e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/LNXPOWER:19
+  - Name: LNXPOWER:19
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/LNXPOWER:19
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:4f
+  - Name: device:4f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:4f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:50
+  - Name: device:50
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:50
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:50/device:51
+  - Name: device:51
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:50/device:51
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:52
+  - Name: device:52
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:52
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:53
+  - Name: device:53
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:53
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:54
+  - Name: device:54
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:54
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:55
+  - Name: device:55
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:55
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:56
+  - Name: device:56
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:56
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:57
+  - Name: device:57
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:57
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:58
+  - Name: device:58
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:58
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:59
+  - Name: device:59
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:59
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5a
+  - Name: device:5a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5b
+  - Name: device:5b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5c
+  - Name: device:5c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5d
+  - Name: device:5d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e
+  - Name: device:5e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e/device:5f
+  - Name: device:5f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e/device:5f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e/device:60
+  - Name: device:60
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e/device:60
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e/device:61
+  - Name: device:61
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:5e/device:61
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:62
+  - Name: device:62
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:62
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:63
+  - Name: device:63
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:63
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:64
+  - Name: device:64
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/device:4e/device:64
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/wakeup/wakeup2
+  - Name: wakeup2
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:4d/wakeup/wakeup2
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:65
+  - Name: device:65
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:65
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:66
+  - Name: device:66
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:66
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:66/wakeup/wakeup15
+  - Name: wakeup15
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:66/wakeup/wakeup15
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67
+  - Name: device:67
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/LNXPOWER:1c
+  - Name: LNXPOWER:1c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/LNXPOWER:1c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/LNXPOWER:1d
+  - Name: LNXPOWER:1d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/LNXPOWER:1d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/LNXPOWER:1e
+  - Name: LNXPOWER:1e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/LNXPOWER:1e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:68
+  - Name: device:68
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:68
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:69
+  - Name: device:69
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:69
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6a
+  - Name: device:6a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6b
+  - Name: device:6b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6c
+  - Name: device:6c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6d
+  - Name: device:6d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6e
+  - Name: device:6e
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6e
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6f
+  - Name: device:6f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:6f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:70
+  - Name: device:70
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:70
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:71
+  - Name: device:71
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:71
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:72
+  - Name: device:72
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:72
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:73
+  - Name: device:73
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/device:73
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/wakeup/wakeup7
+  - Name: wakeup7
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:67/wakeup/wakeup7
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74
+  - Name: device:74
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/BOSC0200:00
+  - Name: BOSC0200:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/BOSC0200:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/BOSC1160:00
+  - Name: BOSC1160:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/BOSC1160:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/CPLM3218:00
+  - Name: CPLM3218:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/CPLM3218:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/INT0000:00
+  - Name: INT0000:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/INT0000:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/INT3515:00
+  - Name: INT3515:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/INT3515:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/INT3515:01
+  - Name: INT3515:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/INT3515:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/KIOX020A:00
+  - Name: KIOX020A:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/KIOX020A:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/KIOX020A:00/wakeup/wakeup41
+  - Name: wakeup41
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/KIOX020A:00/wakeup/wakeup41
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/SYNA3602:00
+  - Name: SYNA3602:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/SYNA3602:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/SYNA3602:00/wakeup/wakeup34
+  - Name: wakeup34
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/SYNA3602:00/wakeup/wakeup34
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/XXXX0000:00
+  - Name: XXXX0000:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/XXXX0000:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/wakeup/wakeup3
+  - Name: wakeup3
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:74/wakeup/wakeup3
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75
+  - Name: device:75
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/GDIX1001:00
+  - Name: GDIX1001:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/GDIX1001:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/GDIX1001:00/wakeup/wakeup40
+  - Name: wakeup40
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/GDIX1001:00/wakeup/wakeup40
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/IMPJ0003:00
+  - Name: IMPJ0003:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/IMPJ0003:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/KIOX010A:00
+  - Name: KIOX010A:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/KIOX010A:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/KIOX010A:00/wakeup/wakeup42
+  - Name: wakeup42
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/KIOX010A:00/wakeup/wakeup42
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/LNXPOWER:1f
+  - Name: LNXPOWER:1f
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/LNXPOWER:1f
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/XXXX0000:01
+  - Name: XXXX0000:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/XXXX0000:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/XXXX0000:02
+  - Name: XXXX0000:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/XXXX0000:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/wakeup/wakeup4
+  - Name: wakeup4
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:75/wakeup/wakeup4
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76
+  - Name: device:76
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76/INT3471:00
+  - Name: INT3471:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76/INT3471:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76/INT3472:00
+  - Name: INT3472:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76/INT3472:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76/wakeup/wakeup5
+  - Name: wakeup5
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:76/wakeup/wakeup5
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:77
+  - Name: device:77
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:77
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:77/INT33E1:00
+  - Name: INT33E1:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:77/INT33E1:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:77/wakeup/wakeup10
+  - Name: wakeup10
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:77/wakeup/wakeup10
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:78
+  - Name: device:78
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:78
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:79
+  - Name: device:79
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:79
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:79/device:7a
+  - Name: device:7a
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:79/device:7a
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:79/wakeup/wakeup11
+  - Name: wakeup11
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:79/wakeup/wakeup11
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7b
+  - Name: device:7b
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7b
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7b/wakeup/wakeup12
+  - Name: wakeup12
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7b/wakeup/wakeup12
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7c
+  - Name: device:7c
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7c
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7d
+  - Name: device:7d
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7d
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7d/wakeup/wakeup6
+  - Name: wakeup6
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:7d/wakeup/wakeup6
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/wakeup/wakeup18
+  - Name: wakeup18
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/wakeup/wakeup18
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00
+  - Name: PNP0C0C:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00
+  - Subsystem: acpi
+  - Treiber: button
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input2
+  - Name: input2
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input2
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input2/event2
+  - Name: event2
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input2/event2
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/wakeup/wakeup24
+  - Name: wakeup24
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/wakeup/wakeup24
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00
+  - Name: PNP0C0E:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00
+  - Subsystem: acpi
+  - Treiber: button
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1
+  - Name: input1
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1/event1
+  - Name: event1
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1/event1
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/wakeup/wakeup23
+  - Name: wakeup23
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/wakeup/wakeup23
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:00
+  - Name: PNP0C0F:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:01
+  - Name: PNP0C0F:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:02
+  - Name: PNP0C0F:02
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:02
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:03
+  - Name: PNP0C0F:03
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:03
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:04
+  - Name: PNP0C0F:04
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:04
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:05
+  - Name: PNP0C0F:05
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:05
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:06
+  - Name: PNP0C0F:06
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:06
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:07
+  - Name: PNP0C0F:07
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:07
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C14:00
+  - Name: PNP0C14:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C14:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C14:00/wakeup/wakeup29
+  - Name: wakeup29
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C14:00/wakeup/wakeup29
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C31:00
+  - Name: PNP0C31:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C31:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:01
+  - Name: LNXSYBUS:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:01/LNXTHERM:00
+  - Name: LNXTHERM:00
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:01/LNXTHERM:00
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/LNXSYSTM:00/LNXSYBUS:01/LNXTHERM:01
+  - Name: LNXTHERM:01
+  - Pfad: /devices/LNXSYSTM:00/LNXSYBUS:01/LNXTHERM:01
+  - Subsystem: acpi
+  - Treiber: (null)
+
+Gerät: /sys/devices/breakpoint
+  - Name: breakpoint
+  - Pfad: /devices/breakpoint
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/cpu
+  - Name: cpu
+  - Pfad: /devices/cpu
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/cstate_core
+  - Name: cstate_core
+  - Pfad: /devices/cstate_core
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/cstate_pkg
+  - Name: cstate_pkg
+  - Pfad: /devices/cstate_pkg
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/i915
+  - Name: i915
+  - Pfad: /devices/i915
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/intel_pt
+  - Name: intel_pt
+  - Pfad: /devices/intel_pt
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/kprobe
+  - Name: kprobe
+  - Pfad: /devices/kprobe
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/msr
+  - Name: msr
+  - Pfad: /devices/msr
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:00.0
+  - Name: 0000:00:00.0
+  - Pfad: /devices/pci0000:00/0000:00:00.0
+  - Subsystem: pci
+  - Treiber: skl_uncore
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0
+  - Name: 0000:00:02.0
+  - Pfad: /devices/pci0000:00/0000:00:02.0
+  - Subsystem: pci
+  - Treiber: i915
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/cec0
+  - Name: cec0
+  - Pfad: /devices/pci0000:00/0000:00:02.0/cec0
+  - Subsystem: cec
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1
+  - Name: card1
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1
+  - Name: card1-DP-1
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1/drm_dp_aux1
+  - Name: drm_dp_aux1
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1/drm_dp_aux1
+  - Subsystem: drm_dp_aux_dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1/i2c-8
+  - Name: i2c-8
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1/i2c-8
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1/i2c-8/i2c-dev/i2c-8
+  - Name: i2c-8
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-1/i2c-8/i2c-dev/i2c-8
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2
+  - Name: card1-DP-2
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2/drm_dp_aux2
+  - Name: drm_dp_aux2
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2/drm_dp_aux2
+  - Subsystem: drm_dp_aux_dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2/i2c-9
+  - Name: i2c-9
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2/i2c-9
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2/i2c-9/i2c-dev/i2c-9
+  - Name: i2c-9
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-DP-2/i2c-9/i2c-dev/i2c-9
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-HDMI-A-1
+  - Name: card1-HDMI-A-1
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-HDMI-A-1
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-HDMI-A-2
+  - Name: card1-HDMI-A-2
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-HDMI-A-2
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-HDMI-A-3
+  - Name: card1-HDMI-A-3
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-HDMI-A-3
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1
+  - Name: card1-eDP-1
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/drm_dp_aux0
+  - Name: drm_dp_aux0
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/drm_dp_aux0
+  - Subsystem: drm_dp_aux_dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/i2c-7
+  - Name: i2c-7
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/i2c-7
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/i2c-7/i2c-dev/i2c-7
+  - Name: i2c-7
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/i2c-7/i2c-dev/i2c-7
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/intel_backlight
+  - Name: intel_backlight
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/card1/card1-eDP-1/intel_backlight
+  - Subsystem: backlight
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/drm/renderD128
+  - Name: renderD128
+  - Pfad: /devices/pci0000:00/0000:00:02.0/drm/renderD128
+  - Subsystem: drm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/graphics/fb0
+  - Name: fb0
+  - Pfad: /devices/pci0000:00/0000:00:02.0/graphics/fb0
+  - Subsystem: graphics
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/i2c-4
+  - Name: i2c-4
+  - Pfad: /devices/pci0000:00/0000:00:02.0/i2c-4
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/i2c-4/i2c-dev/i2c-4
+  - Name: i2c-4
+  - Pfad: /devices/pci0000:00/0000:00:02.0/i2c-4/i2c-dev/i2c-4
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/i2c-5
+  - Name: i2c-5
+  - Pfad: /devices/pci0000:00/0000:00:02.0/i2c-5
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/i2c-5/i2c-dev/i2c-5
+  - Name: i2c-5
+  - Pfad: /devices/pci0000:00/0000:00:02.0/i2c-5/i2c-dev/i2c-5
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/i2c-6
+  - Name: i2c-6
+  - Pfad: /devices/pci0000:00/0000:00:02.0/i2c-6
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/i2c-6/i2c-dev/i2c-6
+  - Name: i2c-6
+  - Pfad: /devices/pci0000:00/0000:00:02.0/i2c-6/i2c-dev/i2c-6
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/rc/rc0
+  - Name: rc0
+  - Pfad: /devices/pci0000:00/0000:00:02.0/rc/rc0
+  - Subsystem: rc
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/rc/rc0/input25
+  - Name: input25
+  - Pfad: /devices/pci0000:00/0000:00:02.0/rc/rc0/input25
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:02.0/rc/rc0/input25/event14
+  - Name: event14
+  - Pfad: /devices/pci0000:00/0000:00:02.0/rc/rc0/input25/event14
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:04.0
+  - Name: 0000:00:04.0
+  - Pfad: /devices/pci0000:00/0000:00:04.0
+  - Subsystem: pci
+  - Treiber: proc_thermal
+
+Gerät: /sys/devices/pci0000:00/0000:00:08.0
+  - Name: 0000:00:08.0
+  - Pfad: /devices/pci0000:00/0000:00:08.0
+  - Subsystem: pci
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0
+  - Name: 0000:00:14.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0
+  - Subsystem: pci
+  - Treiber: xhci_hcd
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/intel_xhci_usb_sw
+  - Name: intel_xhci_usb_sw
+  - Pfad: /devices/pci0000:00/0000:00:14.0/intel_xhci_usb_sw
+  - Subsystem: platform
+  - Treiber: intel_xhci_usb_sw
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/intel_xhci_usb_sw/usb_role/intel_xhci_usb_sw-role-switch
+  - Name: intel_xhci_usb_sw-role-switch
+  - Pfad: /devices/pci0000:00/0000:00:14.0/intel_xhci_usb_sw/usb_role/intel_xhci_usb_sw-role-switch
+  - Subsystem: usb_role
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1
+  - Name: usb1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0
+  - Name: 1-0:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-0:1.0
+  - Subsystem: usb
+  - Treiber: hub
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1
+  - Name: 1-1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-1
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3
+  - Name: 1-1.3
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.0
+  - Name: 1-1.3:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.3/1-1.3:1.0
+  - Subsystem: usb
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0
+  - Name: 1-1:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0
+  - Subsystem: usb
+  - Treiber: hub
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2
+  - Name: 1-2
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0
+  - Name: 1-2:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0
+  - Subsystem: usb
+  - Treiber: uvcvideo
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/media0
+  - Name: media0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/media0
+  - Subsystem: media
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/video4linux/video0
+  - Name: video0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/video4linux/video0
+  - Subsystem: video4linux
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/video4linux/video1
+  - Name: video1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/video4linux/video1
+  - Subsystem: video4linux
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1
+  - Name: 1-2:1.1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1
+  - Subsystem: usb
+  - Treiber: uvcvideo
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2
+  - Name: 1-2:1.2
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2
+  - Subsystem: usb
+  - Treiber: snd-usb-audio
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2/sound/card1
+  - Name: card1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2/sound/card1
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2/sound/card1/pcmC1D0c
+  - Name: pcmC1D0c
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2/sound/card1/pcmC1D0c
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2/sound/card1/controlC1
+  - Name: controlC1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.2/sound/card1/controlC1
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.3
+  - Name: 1-2:1.3
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.3
+  - Subsystem: usb
+  - Treiber: snd-usb-audio
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3
+  - Name: 1-3
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2
+  - Name: 1-3.2
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0
+  - Name: 1-3.2:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0
+  - Subsystem: usb
+  - Treiber: rtsx_usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_ms.2.auto
+  - Name: rtsx_usb_ms.2.auto
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_ms.2.auto
+  - Subsystem: platform
+  - Treiber: rtsx_usb_ms
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_ms.2.auto/memstick_host/memstick0
+  - Name: memstick0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_ms.2.auto/memstick_host/memstick0
+  - Subsystem: memstick_host
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_sdmmc.1.auto
+  - Name: rtsx_usb_sdmmc.1.auto
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_sdmmc.1.auto
+  - Subsystem: platform
+  - Treiber: rtsx_usb_sdmmc
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_sdmmc.1.auto/leds/mmc2::
+  - Name: mmc2::
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_sdmmc.1.auto/leds/mmc2::
+  - Subsystem: leds
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_sdmmc.1.auto/mmc_host/mmc2
+  - Name: mmc2
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.2/1-3.2:1.0/rtsx_usb_sdmmc.1.auto/mmc_host/mmc2
+  - Subsystem: mmc_host
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4
+  - Name: 1-3.4
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4/1-3.4:1.0
+  - Name: 1-3.4:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4/1-3.4:1.0
+  - Subsystem: usb
+  - Treiber: cdc_acm
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4/1-3.4:1.0/tty/ttyACM0
+  - Name: ttyACM0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4/1-3.4:1.0/tty/ttyACM0
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4/1-3.4:1.1
+  - Name: 1-3.4:1.1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3.4/1-3.4:1.1
+  - Subsystem: usb
+  - Treiber: cdc_acm
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0
+  - Name: 1-3:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.0
+  - Subsystem: usb
+  - Treiber: hub
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7
+  - Name: 1-7
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-7
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0
+  - Name: 1-7:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0
+  - Subsystem: usb
+  - Treiber: btusb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/bluetooth/hci0
+  - Name: hci0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/bluetooth/hci0
+  - Subsystem: bluetooth
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/bluetooth/hci0/hci0:3585
+  - Name: hci0:3585
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/bluetooth/hci0/hci0:3585
+  - Subsystem: bluetooth
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/bluetooth/hci0/rfkill3
+  - Name: rfkill3
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.0/bluetooth/hci0/rfkill3
+  - Subsystem: rfkill
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1
+  - Name: 1-7:1.1
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb1/1-7/1-7:1.1
+  - Subsystem: usb
+  - Treiber: btusb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb2
+  - Name: usb2
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb2
+  - Subsystem: usb
+  - Treiber: usb
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0
+  - Name: 2-0:1.0
+  - Pfad: /devices/pci0000:00/0000:00:14.0/usb2/2-0:1.0
+  - Subsystem: usb
+  - Treiber: hub
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.0/wakeup/wakeup30
+  - Name: wakeup30
+  - Pfad: /devices/pci0000:00/0000:00:14.0/wakeup/wakeup30
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:14.2
+  - Name: 0000:00:14.2
+  - Pfad: /devices/pci0000:00/0000:00:14.2
+  - Subsystem: pci
+  - Treiber: intel_pch_thermal
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0
+  - Name: 0000:00:15.0
+  - Pfad: /devices/pci0000:00/0000:00:15.0
+  - Subsystem: pci
+  - Treiber: intel-lpss
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/dma/dma0chan0
+  - Name: dma0chan0
+  - Pfad: /devices/pci0000:00/0000:00:15.0/dma/dma0chan0
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/dma/dma0chan1
+  - Name: dma0chan1
+  - Pfad: /devices/pci0000:00/0000:00:15.0/dma/dma0chan1
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0
+  - Name: i2c_designware.0
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0
+  - Subsystem: platform
+  - Treiber: i2c_designware
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1
+  - Name: i2c-1
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-KIOX020A:00
+  - Name: i2c-KIOX020A:00
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-KIOX020A:00
+  - Subsystem: i2c
+  - Treiber: kxcjk1013
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-KIOX020A:00/iio:device0
+  - Name: iio:device0
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-KIOX020A:00/iio:device0
+  - Subsystem: iio
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00
+  - Name: i2c-SYNA3602:00
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00
+  - Subsystem: i2c
+  - Treiber: i2c_hid_acpi
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001
+  - Name: 0018:0911:5288.0001
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001
+  - Subsystem: hid
+  - Treiber: hid-multitouch
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/hidraw/hidraw0
+  - Name: hidraw0
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/hidraw/hidraw0
+  - Subsystem: hidraw
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input12
+  - Name: input12
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input12
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input12/event5
+  - Name: event5
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input12/event5
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input12/mouse0
+  - Name: mouse0
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input12/mouse0
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input13
+  - Name: input13
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input13
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input13/event6
+  - Name: event6
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input13/event6
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input13/mouse1
+  - Name: mouse1
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-SYNA3602:00/0018:0911:5288.0001/input/input13/mouse1
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-dev/i2c-1
+  - Name: i2c-1
+  - Pfad: /devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-dev/i2c-1
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.0/idma64.0
+  - Name: idma64.0
+  - Pfad: /devices/pci0000:00/0000:00:15.0/idma64.0
+  - Subsystem: platform
+  - Treiber: idma64
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1
+  - Name: 0000:00:15.1
+  - Pfad: /devices/pci0000:00/0000:00:15.1
+  - Subsystem: pci
+  - Treiber: intel-lpss
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/dma/dma1chan0
+  - Name: dma1chan0
+  - Pfad: /devices/pci0000:00/0000:00:15.1/dma/dma1chan0
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/dma/dma1chan1
+  - Name: dma1chan1
+  - Pfad: /devices/pci0000:00/0000:00:15.1/dma/dma1chan1
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1
+  - Name: i2c_designware.1
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1
+  - Subsystem: platform
+  - Treiber: i2c_designware
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2
+  - Name: i2c-2
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00
+  - Name: i2c-GDIX1001:00
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00
+  - Subsystem: i2c
+  - Treiber: Goodix-TS
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00/input/input10
+  - Name: input10
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00/input/input10
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00/input/input10/event8
+  - Name: event8
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00/input/input10/event8
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00/input/input10/mouse2
+  - Name: mouse2
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-GDIX1001:00/input/input10/mouse2
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-KIOX010A:00
+  - Name: i2c-KIOX010A:00
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-KIOX010A:00
+  - Subsystem: i2c
+  - Treiber: kxcjk1013
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-KIOX010A:00/iio:device1
+  - Name: iio:device1
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-KIOX010A:00/iio:device1
+  - Subsystem: iio
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-dev/i2c-2
+  - Name: i2c-2
+  - Pfad: /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-dev/i2c-2
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.1/idma64.1
+  - Name: idma64.1
+  - Pfad: /devices/pci0000:00/0000:00:15.1/idma64.1
+  - Subsystem: platform
+  - Treiber: idma64
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2
+  - Name: 0000:00:15.2
+  - Pfad: /devices/pci0000:00/0000:00:15.2
+  - Subsystem: pci
+  - Treiber: intel-lpss
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2/dma/dma2chan0
+  - Name: dma2chan0
+  - Pfad: /devices/pci0000:00/0000:00:15.2/dma/dma2chan0
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2/dma/dma2chan1
+  - Name: dma2chan1
+  - Pfad: /devices/pci0000:00/0000:00:15.2/dma/dma2chan1
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2/i2c_designware.2
+  - Name: i2c_designware.2
+  - Pfad: /devices/pci0000:00/0000:00:15.2/i2c_designware.2
+  - Subsystem: platform
+  - Treiber: i2c_designware
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2/i2c_designware.2/i2c-3
+  - Name: i2c-3
+  - Pfad: /devices/pci0000:00/0000:00:15.2/i2c_designware.2/i2c-3
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2/i2c_designware.2/i2c-3/i2c-dev/i2c-3
+  - Name: i2c-3
+  - Pfad: /devices/pci0000:00/0000:00:15.2/i2c_designware.2/i2c-3/i2c-dev/i2c-3
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:15.2/idma64.2
+  - Name: idma64.2
+  - Pfad: /devices/pci0000:00/0000:00:15.2/idma64.2
+  - Subsystem: platform
+  - Treiber: idma64
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0
+  - Name: 0000:00:16.0
+  - Pfad: /devices/pci0000:00/0000:00:16.0
+  - Subsystem: pci
+  - Treiber: mei_me
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-01e88543-8050-4380-9d6f-4f9cec704917
+  - Name: 0000:00:16.0-01e88543-8050-4380-9d6f-4f9cec704917
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-01e88543-8050-4380-9d6f-4f9cec704917
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1
+  - Name: 0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-082ee5a7-7c25-470a-9643-0c06f0466ea1
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-309dcde8-ccb1-4062-8f78-600115a34327
+  - Name: 0000:00:16.0-309dcde8-ccb1-4062-8f78-600115a34327
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-309dcde8-ccb1-4062-8f78-600115a34327
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-3c4852d6-d47b-4f46-b05e-b5edc1aa440e
+  - Name: 0000:00:16.0-3c4852d6-d47b-4f46-b05e-b5edc1aa440e
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-3c4852d6-d47b-4f46-b05e-b5edc1aa440e
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff
+  - Name: 0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-42b3ce2f-bd9f-485a-96ae-26406230b1ff
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb
+  - Name: 0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-55213584-9a29-4916-badf-0fb7ed682aeb
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-5565a099-7fe2-45c1-a22b-d7e9dfea9a2e
+  - Name: 0000:00:16.0-5565a099-7fe2-45c1-a22b-d7e9dfea9a2e
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-5565a099-7fe2-45c1-a22b-d7e9dfea9a2e
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58
+  - Name: 0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-8c2f4425-77d6-4755-aca3-891fdbc66a58
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f
+  - Name: 0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-8e6a6715-9abc-4043-88ef-9e39c6f63e0f
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04
+  - Name: 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04
+  - Subsystem: mei
+  - Treiber: mei_hdcp
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-dba4d603-d7ed-4931-8823-17ad585705d5
+  - Name: 0000:00:16.0-dba4d603-d7ed-4931-8823-17ad585705d5
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-dba4d603-d7ed-4931-8823-17ad585705d5
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-f908627d-13bf-4a04-b91f-a64e9245323d
+  - Name: 0000:00:16.0-f908627d-13bf-4a04-b91f-a64e9245323d
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-f908627d-13bf-4a04-b91f-a64e9245323d
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1
+  - Name: 0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1
+  - Pfad: /devices/pci0000:00/0000:00:16.0/0000:00:16.0-fbf6fcf1-96cf-4e2e-a6a6-1bab8cbe36b1
+  - Subsystem: mei
+  - Treiber: mei_pxp
+
+Gerät: /sys/devices/pci0000:00/0000:00:16.0/mei/mei0
+  - Name: mei0
+  - Pfad: /devices/pci0000:00/0000:00:16.0/mei/mei0
+  - Subsystem: mei
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0
+  - Name: 0000:00:17.0
+  - Pfad: /devices/pci0000:00/0000:00:17.0
+  - Subsystem: pci
+  - Treiber: ahci
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata1/ata_port/ata1
+  - Name: ata1
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata1/ata_port/ata1
+  - Subsystem: ata_port
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata1/host0
+  - Name: host0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata1/host0
+  - Subsystem: scsi
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata1/host0/scsi_host/host0
+  - Name: host0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata1/host0/scsi_host/host0
+  - Subsystem: scsi_host
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata1/link1/ata_link/link1
+  - Name: link1
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata1/link1/ata_link/link1
+  - Subsystem: ata_link
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata1/link1/dev1.0/ata_device/dev1.0
+  - Name: dev1.0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata1/link1/dev1.0/ata_device/dev1.0
+  - Subsystem: ata_device
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/ata_port/ata2
+  - Name: ata2
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/ata_port/ata2
+  - Subsystem: ata_port
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1
+  - Name: host1
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1
+  - Subsystem: scsi
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/scsi_host/host1
+  - Name: host1
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/scsi_host/host1
+  - Subsystem: scsi_host
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0
+  - Name: target1:0:0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0
+  - Subsystem: scsi
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0
+  - Name: 1:0:0:0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0
+  - Subsystem: scsi
+  - Treiber: sd
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda
+  - Name: sda
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda1
+  - Name: sda1
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda1
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda2
+  - Name: sda2
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda2
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda3
+  - Name: sda3
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda3
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda4
+  - Name: sda4
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/block/sda/sda4
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/bsg/1:0:0:0
+  - Name: 1:0:0:0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/bsg/1:0:0:0
+  - Subsystem: bsg
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/scsi_device/1:0:0:0
+  - Name: 1:0:0:0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/scsi_device/1:0:0:0
+  - Subsystem: scsi_device
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/scsi_disk/1:0:0:0
+  - Name: 1:0:0:0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/scsi_disk/1:0:0:0
+  - Subsystem: scsi_disk
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/scsi_generic/sg0
+  - Name: sg0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/host1/target1:0:0/1:0:0:0/scsi_generic/sg0
+  - Subsystem: scsi_generic
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/link2/ata_link/link2
+  - Name: link2
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/link2/ata_link/link2
+  - Subsystem: ata_link
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:17.0/ata2/link2/dev2.0/ata_device/dev2.0
+  - Name: dev2.0
+  - Pfad: /devices/pci0000:00/0000:00:17.0/ata2/link2/dev2.0/ata_device/dev2.0
+  - Subsystem: ata_device
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0
+  - Name: 0000:00:1d.0
+  - Pfad: /devices/pci0000:00/0000:00:1d.0
+  - Subsystem: pci
+  - Treiber: pcieport
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:00:1d.0:pcie001
+  - Name: 0000:00:1d.0:pcie001
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:00:1d.0:pcie001
+  - Subsystem: pci_express
+  - Treiber: pcie_pme
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:00:1d.0:pcie002
+  - Name: 0000:00:1d.0:pcie002
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:00:1d.0:pcie002
+  - Subsystem: pci_express
+  - Treiber: aer
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:00:1d.0:pcie010
+  - Name: 0000:00:1d.0:pcie010
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:00:1d.0:pcie010
+  - Subsystem: pci_express
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:01:00.0
+  - Name: 0000:01:00.0
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:01:00.0
+  - Subsystem: pci
+  - Treiber: iwlwifi
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:01:00.0/ieee80211/phy0
+  - Name: phy0
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:01:00.0/ieee80211/phy0
+  - Subsystem: ieee80211
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:01:00.0/ieee80211/phy0/rfkill0
+  - Name: rfkill0
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:01:00.0/ieee80211/phy0/rfkill0
+  - Subsystem: rfkill
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:01:00.0/leds/phy0-led
+  - Name: phy0-led
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:01:00.0/leds/phy0-led
+  - Subsystem: leds
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:01:00.0/net/wlp1s0
+  - Name: wlp1s0
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:01:00.0/net/wlp1s0
+  - Subsystem: net
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/0000:01:00.0/ptp/ptp0
+  - Name: ptp0
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/0000:01:00.0/ptp/ptp0
+  - Subsystem: ptp
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/pci_bus/0000:01
+  - Name: 0000:01
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/pci_bus/0000:01
+  - Subsystem: pci_bus
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1d.0/wakeup/wakeup9
+  - Name: wakeup9
+  - Pfad: /devices/pci0000:00/0000:00:1d.0/wakeup/wakeup9
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0
+  - Name: 0000:00:1e.0
+  - Pfad: /devices/pci0000:00/0000:00:1e.0
+  - Subsystem: pci
+  - Treiber: intel-lpss
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/dma/dma3chan0
+  - Name: dma3chan0
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/dma/dma3chan0
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/dma/dma3chan1
+  - Name: dma3chan1
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/dma/dma3chan1
+  - Subsystem: dma
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3
+  - Name: dw-apb-uart.3
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3
+  - Subsystem: platform
+  - Treiber: dw-apb-uart
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3/dw-apb-uart.3:0
+  - Name: dw-apb-uart.3:0
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3/dw-apb-uart.3:0
+  - Subsystem: serial-base
+  - Treiber: ctrl
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3/dw-apb-uart.3:0/dw-apb-uart.3:0.0
+  - Name: dw-apb-uart.3:0.0
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3/dw-apb-uart.3:0/dw-apb-uart.3:0.0
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3/dw-apb-uart.3:0/dw-apb-uart.3:0.0/tty/ttyS4
+  - Name: ttyS4
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/dw-apb-uart.3/dw-apb-uart.3:0/dw-apb-uart.3:0.0/tty/ttyS4
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.0/idma64.3
+  - Name: idma64.3
+  - Pfad: /devices/pci0000:00/0000:00:1e.0/idma64.3
+  - Subsystem: platform
+  - Treiber: idma64
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.4
+  - Name: 0000:00:1e.4
+  - Pfad: /devices/pci0000:00/0000:00:1e.4
+  - Subsystem: pci
+  - Treiber: sdhci-pci
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.4/mmc_host/mmc0
+  - Name: mmc0
+  - Pfad: /devices/pci0000:00/0000:00:1e.4/mmc_host/mmc0
+  - Subsystem: mmc_host
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.6
+  - Name: 0000:00:1e.6
+  - Pfad: /devices/pci0000:00/0000:00:1e.6
+  - Subsystem: pci
+  - Treiber: sdhci-pci
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.6/mmc_host/mmc1
+  - Name: mmc1
+  - Pfad: /devices/pci0000:00/0000:00:1e.6/mmc_host/mmc1
+  - Subsystem: mmc_host
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1e.6/wakeup/wakeup33
+  - Name: wakeup33
+  - Pfad: /devices/pci0000:00/0000:00:1e.6/wakeup/wakeup33
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0
+  - Name: 0000:00:1f.0
+  - Pfad: /devices/pci0000:00/0000:00:1f.0
+  - Subsystem: pci
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/INT0800:00
+  - Name: INT0800:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/INT0800:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0103:00
+  - Name: PNP0103:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0103:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00
+  - Name: PNP0C09:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00
+  - Name: ACPI0003:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00
+  - Subsystem: platform
+  - Treiber: ac
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00/power_supply/ADP1
+  - Name: ADP1
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00/power_supply/ADP1
+  - Subsystem: power_supply
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00/power_supply/ADP1/hwmon0
+  - Name: hwmon0
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00/power_supply/ADP1/hwmon0
+  - Subsystem: hwmon
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00/power_supply/ADP1/wakeup22
+  - Name: wakeup22
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/ACPI0003:00/power_supply/ADP1/wakeup22
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT33D3:00
+  - Name: INT33D3:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT33D3:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT33D4:00
+  - Name: INT33D4:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT33D4:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT3403:03
+  - Name: INT3403:03
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/INT3403:03
+  - Subsystem: platform
+  - Treiber: int3403 thermal
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/PNP0C0A:00
+  - Name: PNP0C0A:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/PNP0C0A:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.0/PNP0C09:00/PNP0C0D:00
+  - Name: PNP0C0D:00
+  - Pfad: /devices/pci0000:00/0000:00:1f.0/PNP0C09:00/PNP0C0D:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.2
+  - Name: 0000:00:1f.2
+  - Pfad: /devices/pci0000:00/0000:00:1f.2
+  - Subsystem: pci
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3
+  - Name: 0000:00:1f.3
+  - Pfad: /devices/pci0000:00/0000:00:1f.3
+  - Subsystem: pci
+  - Treiber: snd_hda_intel
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/hdaudioC0D0
+  - Name: hdaudioC0D0
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/hdaudioC0D0
+  - Subsystem: hdaudio
+  - Treiber: snd_hda_codec_realtek
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/hdaudioC0D2
+  - Name: hdaudioC0D2
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/hdaudioC0D2
+  - Subsystem: hdaudio
+  - Treiber: snd_hda_codec_hdmi
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0
+  - Name: card0
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/hwC0D0
+  - Name: hwC0D0
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/hwC0D0
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/hwC0D2
+  - Name: hwC0D2
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/hwC0D2
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+  - Name: input14
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input14/event9
+  - Name: event9
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input14/event9
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input15
+  - Name: input15
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input15
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input15/event10
+  - Name: event10
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input15/event10
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input16
+  - Name: input16
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input16
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input16/event11
+  - Name: event11
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input16/event11
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+  - Name: input17
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input17
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input17/event12
+  - Name: event12
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input17/event12
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+  - Name: input18
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input18
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/input18/event13
+  - Name: event13
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/input18/event13
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D0c
+  - Name: pcmC0D0c
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D0c
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D0p
+  - Name: pcmC0D0p
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D0p
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D3p
+  - Name: pcmC0D3p
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D3p
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D7p
+  - Name: pcmC0D7p
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D7p
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D8p
+  - Name: pcmC0D8p
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/pcmC0D8p
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/controlC0
+  - Name: controlC0
+  - Pfad: /devices/pci0000:00/0000:00:1f.3/sound/card0/controlC0
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.4
+  - Name: 0000:00:1f.4
+  - Pfad: /devices/pci0000:00/0000:00:1f.4
+  - Subsystem: pci
+  - Treiber: i801_smbus
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.4/i2c-0
+  - Name: i2c-0
+  - Pfad: /devices/pci0000:00/0000:00:1f.4/i2c-0
+  - Subsystem: i2c
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.4/i2c-0/i2c-dev/i2c-0
+  - Name: i2c-0
+  - Pfad: /devices/pci0000:00/0000:00:1f.4/i2c-0/i2c-dev/i2c-0
+  - Subsystem: i2c-dev
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/0000:00:1f.4/iTCO_wdt
+  - Name: iTCO_wdt
+  - Pfad: /devices/pci0000:00/0000:00:1f.4/iTCO_wdt
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/ID9001:00
+  - Name: ID9001:00
+  - Pfad: /devices/pci0000:00/ID9001:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/INT344B:00
+  - Name: INT344B:00
+  - Pfad: /devices/pci0000:00/INT344B:00
+  - Subsystem: platform
+  - Treiber: sunrisepoint-pinctrl
+
+Gerät: /sys/devices/pci0000:00/INT344B:00/gpio/gpiochip512
+  - Name: gpiochip512
+  - Pfad: /devices/pci0000:00/INT344B:00/gpio/gpiochip512
+  - Subsystem: gpio
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/INT344B:00/gpiochip0
+  - Name: gpiochip0
+  - Pfad: /devices/pci0000:00/INT344B:00/gpiochip0
+  - Subsystem: gpio
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/INT344B:00/pwm/pwmchip0
+  - Name: pwmchip0
+  - Pfad: /devices/pci0000:00/INT344B:00/pwm/pwmchip0
+  - Subsystem: pwm
+  - Treiber: (null)
+
+Gerät: /sys/devices/pci0000:00/pci_bus/0000:00
+  - Name: 0000:00
+  - Pfad: /devices/pci0000:00/pci_bus/0000:00
+  - Subsystem: pci_bus
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/ACPI000C:00
+  - Name: ACPI000C:00
+  - Pfad: /devices/platform/ACPI000C:00
+  - Subsystem: platform
+  - Treiber: processor_aggregator
+
+Gerät: /sys/devices/platform/Fixed MDIO bus.0
+  - Name: Fixed MDIO bus.0
+  - Pfad: /devices/platform/Fixed MDIO bus.0
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0
+  - Name: fixed-0
+  - Pfad: /devices/platform/Fixed MDIO bus.0/mdio_bus/fixed-0
+  - Subsystem: mdio_bus
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/INT33A1:00
+  - Name: INT33A1:00
+  - Pfad: /devices/platform/INT33A1:00
+  - Subsystem: platform
+  - Treiber: intel_pmc_core
+
+Gerät: /sys/devices/platform/INT3400:00
+  - Name: INT3400:00
+  - Pfad: /devices/platform/INT3400:00
+  - Subsystem: platform
+  - Treiber: int3400 thermal
+
+Gerät: /sys/devices/platform/PNP0C0C:00
+  - Name: PNP0C0C:00
+  - Pfad: /devices/platform/PNP0C0C:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/PNP0C0E:00
+  - Name: PNP0C0E:00
+  - Pfad: /devices/platform/PNP0C0E:00
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/PNP0C14:00
+  - Name: PNP0C14:00
+  - Pfad: /devices/platform/PNP0C14:00
+  - Subsystem: platform
+  - Treiber: acpi-wmi
+
+Gerät: /sys/devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00
+  - Name: wmi_bus-PNP0C14:00
+  - Pfad: /devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00
+  - Subsystem: wmi_bus
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/86CCFD48-205E-4A77-9C48-2021CBEDE341
+  - Name: 86CCFD48-205E-4A77-9C48-2021CBEDE341
+  - Pfad: /devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/86CCFD48-205E-4A77-9C48-2021CBEDE341
+  - Subsystem: wmi
+  - Treiber: intel-wmi-thunderbolt
+
+Gerät: /sys/devices/platform/acpi-cpufreq
+  - Name: acpi-cpufreq
+  - Pfad: /devices/platform/acpi-cpufreq
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/coretemp.0
+  - Name: coretemp.0
+  - Pfad: /devices/platform/coretemp.0
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/coretemp.0/hwmon/hwmon4
+  - Name: hwmon4
+  - Pfad: /devices/platform/coretemp.0/hwmon/hwmon4
+  - Subsystem: hwmon
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/efivars.0
+  - Name: efivars.0
+  - Pfad: /devices/platform/efivars.0
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/eisa.0
+  - Name: eisa.0
+  - Pfad: /devices/platform/eisa.0
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/i8042
+  - Name: i8042
+  - Pfad: /devices/platform/i8042
+  - Subsystem: platform
+  - Treiber: i8042
+
+Gerät: /sys/devices/platform/i8042/serio0
+  - Name: serio0
+  - Pfad: /devices/platform/i8042/serio0
+  - Subsystem: serio
+  - Treiber: atkbd
+
+Gerät: /sys/devices/platform/i8042/serio0/input/input4
+  - Name: input4
+  - Pfad: /devices/platform/i8042/serio0/input/input4
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/i8042/serio0/input/input4/event4
+  - Name: event4
+  - Pfad: /devices/platform/i8042/serio0/input/input4/event4
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/i8042/serio0/input/input4/input4::capslock
+  - Name: input4::capslock
+  - Pfad: /devices/platform/i8042/serio0/input/input4/input4::capslock
+  - Subsystem: leds
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/i8042/serio0/input/input4/input4::numlock
+  - Name: input4::numlock
+  - Pfad: /devices/platform/i8042/serio0/input/input4/input4::numlock
+  - Subsystem: leds
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/i8042/serio0/input/input4/input4::scrolllock
+  - Name: input4::scrolllock
+  - Pfad: /devices/platform/i8042/serio0/input/input4/input4::scrolllock
+  - Subsystem: leds
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/i8042/serio1
+  - Name: serio1
+  - Pfad: /devices/platform/i8042/serio1
+  - Subsystem: serio
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/intel_rapl_msr.0
+  - Name: intel_rapl_msr.0
+  - Pfad: /devices/platform/intel_rapl_msr.0
+  - Subsystem: platform
+  - Treiber: intel_rapl_msr
+
+Gerät: /sys/devices/platform/kgdboc
+  - Name: kgdboc
+  - Pfad: /devices/platform/kgdboc
+  - Subsystem: platform
+  - Treiber: kgdboc
+
+Gerät: /sys/devices/platform/microcode
+  - Name: microcode
+  - Pfad: /devices/platform/microcode
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/pcspkr
+  - Name: pcspkr
+  - Pfad: /devices/platform/pcspkr
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/reg-dummy
+  - Name: reg-dummy
+  - Pfad: /devices/platform/reg-dummy
+  - Subsystem: platform
+  - Treiber: reg-dummy
+
+Gerät: /sys/devices/platform/reg-dummy/regulator/regulator.0
+  - Name: regulator.0
+  - Pfad: /devices/platform/reg-dummy/regulator/regulator.0
+  - Subsystem: regulator
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/regulatory.0
+  - Name: regulatory.0
+  - Pfad: /devices/platform/regulatory.0
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/rtc-efi.0
+  - Name: rtc-efi.0
+  - Pfad: /devices/platform/rtc-efi.0
+  - Subsystem: platform
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250
+  - Name: serial8250
+  - Pfad: /devices/platform/serial8250
+  - Subsystem: platform
+  - Treiber: serial8250
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0
+  - Name: serial8250:0
+  - Pfad: /devices/platform/serial8250/serial8250:0
+  - Subsystem: serial-base
+  - Treiber: ctrl
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.0
+  - Name: serial8250:0.0
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.0
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0
+  - Name: ttyS0
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.1
+  - Name: serial8250:0.1
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.1
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1
+  - Name: ttyS1
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.10
+  - Name: serial8250:0.10
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.10
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.10/tty/ttyS10
+  - Name: ttyS10
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.10/tty/ttyS10
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.11
+  - Name: serial8250:0.11
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.11
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.11/tty/ttyS11
+  - Name: ttyS11
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.11/tty/ttyS11
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.12
+  - Name: serial8250:0.12
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.12
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.12/tty/ttyS12
+  - Name: ttyS12
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.12/tty/ttyS12
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.13
+  - Name: serial8250:0.13
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.13
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.13/tty/ttyS13
+  - Name: ttyS13
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.13/tty/ttyS13
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.14
+  - Name: serial8250:0.14
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.14
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.14/tty/ttyS14
+  - Name: ttyS14
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.14/tty/ttyS14
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.15
+  - Name: serial8250:0.15
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.15
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.15/tty/ttyS15
+  - Name: ttyS15
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.15/tty/ttyS15
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.16
+  - Name: serial8250:0.16
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.16
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.16/tty/ttyS16
+  - Name: ttyS16
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.16/tty/ttyS16
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.17
+  - Name: serial8250:0.17
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.17
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.17/tty/ttyS17
+  - Name: ttyS17
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.17/tty/ttyS17
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.18
+  - Name: serial8250:0.18
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.18
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.18/tty/ttyS18
+  - Name: ttyS18
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.18/tty/ttyS18
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.19
+  - Name: serial8250:0.19
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.19
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.19/tty/ttyS19
+  - Name: ttyS19
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.19/tty/ttyS19
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.2
+  - Name: serial8250:0.2
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.2
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.2/tty/ttyS2
+  - Name: ttyS2
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.2/tty/ttyS2
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.20
+  - Name: serial8250:0.20
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.20
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.20/tty/ttyS20
+  - Name: ttyS20
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.20/tty/ttyS20
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.21
+  - Name: serial8250:0.21
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.21
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.21/tty/ttyS21
+  - Name: ttyS21
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.21/tty/ttyS21
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.22
+  - Name: serial8250:0.22
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.22
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.22/tty/ttyS22
+  - Name: ttyS22
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.22/tty/ttyS22
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.23
+  - Name: serial8250:0.23
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.23
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.23/tty/ttyS23
+  - Name: ttyS23
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.23/tty/ttyS23
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.24
+  - Name: serial8250:0.24
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.24
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.24/tty/ttyS24
+  - Name: ttyS24
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.24/tty/ttyS24
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.25
+  - Name: serial8250:0.25
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.25
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.25/tty/ttyS25
+  - Name: ttyS25
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.25/tty/ttyS25
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.26
+  - Name: serial8250:0.26
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.26
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.26/tty/ttyS26
+  - Name: ttyS26
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.26/tty/ttyS26
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.27
+  - Name: serial8250:0.27
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.27
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.27/tty/ttyS27
+  - Name: ttyS27
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.27/tty/ttyS27
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.28
+  - Name: serial8250:0.28
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.28
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.28/tty/ttyS28
+  - Name: ttyS28
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.28/tty/ttyS28
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.29
+  - Name: serial8250:0.29
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.29
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.29/tty/ttyS29
+  - Name: ttyS29
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.29/tty/ttyS29
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.3
+  - Name: serial8250:0.3
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.3
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.3/tty/ttyS3
+  - Name: ttyS3
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.3/tty/ttyS3
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.30
+  - Name: serial8250:0.30
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.30
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.30/tty/ttyS30
+  - Name: ttyS30
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.30/tty/ttyS30
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.31
+  - Name: serial8250:0.31
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.31
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.31/tty/ttyS31
+  - Name: ttyS31
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.31/tty/ttyS31
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.5
+  - Name: serial8250:0.5
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.5
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.5/tty/ttyS5
+  - Name: ttyS5
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.5/tty/ttyS5
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.6
+  - Name: serial8250:0.6
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.6
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.6/tty/ttyS6
+  - Name: ttyS6
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.6/tty/ttyS6
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.7
+  - Name: serial8250:0.7
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.7
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.7/tty/ttyS7
+  - Name: ttyS7
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.7/tty/ttyS7
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.8
+  - Name: serial8250:0.8
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.8
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.8/tty/ttyS8
+  - Name: ttyS8
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.8/tty/ttyS8
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.9
+  - Name: serial8250:0.9
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.9
+  - Subsystem: serial-base
+  - Treiber: port
+
+Gerät: /sys/devices/platform/serial8250/serial8250:0/serial8250:0.9/tty/ttyS9
+  - Name: ttyS9
+  - Pfad: /devices/platform/serial8250/serial8250:0/serial8250:0.9/tty/ttyS9
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/platform/snd-soc-dummy
+  - Name: snd-soc-dummy
+  - Pfad: /devices/platform/snd-soc-dummy
+  - Subsystem: platform
+  - Treiber: snd-soc-dummy
+
+Gerät: /sys/devices/pnp0/00:00
+  - Name: 00:00
+  - Pfad: /devices/pnp0/00:00
+  - Subsystem: pnp
+  - Treiber: system
+
+Gerät: /sys/devices/pnp0/00:01
+  - Name: 00:01
+  - Pfad: /devices/pnp0/00:01
+  - Subsystem: pnp
+  - Treiber: rtc_cmos
+
+Gerät: /sys/devices/pnp0/00:01/cmos_nvram0
+  - Name: cmos_nvram0
+  - Pfad: /devices/pnp0/00:01/cmos_nvram0
+  - Subsystem: nvmem
+  - Treiber: (null)
+
+Gerät: /sys/devices/pnp0/00:01/rtc/rtc0
+  - Name: rtc0
+  - Pfad: /devices/pnp0/00:01/rtc/rtc0
+  - Subsystem: rtc
+  - Treiber: (null)
+
+Gerät: /sys/devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto
+  - Name: alarmtimer.0.auto
+  - Pfad: /devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto
+  - Subsystem: platform
+  - Treiber: alarmtimer
+
+Gerät: /sys/devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto/wakeup/wakeup27
+  - Name: wakeup27
+  - Pfad: /devices/pnp0/00:01/rtc/rtc0/alarmtimer.0.auto/wakeup/wakeup27
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/pnp0/00:01/wakeup/wakeup26
+  - Name: wakeup26
+  - Pfad: /devices/pnp0/00:01/wakeup/wakeup26
+  - Subsystem: wakeup
+  - Treiber: (null)
+
+Gerät: /sys/devices/pnp0/00:02
+  - Name: 00:02
+  - Pfad: /devices/pnp0/00:02
+  - Subsystem: pnp
+  - Treiber: system
+
+Gerät: /sys/devices/pnp0/00:03
+  - Name: 00:03
+  - Pfad: /devices/pnp0/00:03
+  - Subsystem: pnp
+  - Treiber: i8042 kbd
+
+Gerät: /sys/devices/pnp0/00:04
+  - Name: 00:04
+  - Pfad: /devices/pnp0/00:04
+  - Subsystem: pnp
+  - Treiber: i8042 aux
+
+Gerät: /sys/devices/pnp0/00:05
+  - Name: 00:05
+  - Pfad: /devices/pnp0/00:05
+  - Subsystem: pnp
+  - Treiber: system
+
+Gerät: /sys/devices/pnp0/00:06
+  - Name: 00:06
+  - Pfad: /devices/pnp0/00:06
+  - Subsystem: pnp
+  - Treiber: system
+
+Gerät: /sys/devices/pnp0/00:07
+  - Name: 00:07
+  - Pfad: /devices/pnp0/00:07
+  - Subsystem: pnp
+  - Treiber: system
+
+Gerät: /sys/devices/pnp0/00:08
+  - Name: 00:08
+  - Pfad: /devices/pnp0/00:08
+  - Subsystem: pnp
+  - Treiber: system
+
+Gerät: /sys/devices/power
+  - Name: power
+  - Pfad: /devices/power
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/software
+  - Name: software
+  - Pfad: /devices/software
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/clockevents/broadcast
+  - Name: broadcast
+  - Pfad: /devices/system/clockevents/broadcast
+  - Subsystem: clockevents
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/clockevents/clockevent0
+  - Name: clockevent0
+  - Pfad: /devices/system/clockevents/clockevent0
+  - Subsystem: clockevents
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/clockevents/clockevent1
+  - Name: clockevent1
+  - Pfad: /devices/system/clockevents/clockevent1
+  - Subsystem: clockevents
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/clockevents/clockevent2
+  - Name: clockevent2
+  - Pfad: /devices/system/clockevents/clockevent2
+  - Subsystem: clockevents
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/clockevents/clockevent3
+  - Name: clockevent3
+  - Pfad: /devices/system/clockevents/clockevent3
+  - Subsystem: clockevents
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/clocksource/clocksource0
+  - Name: clocksource0
+  - Pfad: /devices/system/clocksource/clocksource0
+  - Subsystem: clocksource
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/cpu/cpu0
+  - Name: cpu0
+  - Pfad: /devices/system/cpu/cpu0
+  - Subsystem: cpu
+  - Treiber: processor
+
+Gerät: /sys/devices/system/cpu/cpu1
+  - Name: cpu1
+  - Pfad: /devices/system/cpu/cpu1
+  - Subsystem: cpu
+  - Treiber: processor
+
+Gerät: /sys/devices/system/cpu/cpu2
+  - Name: cpu2
+  - Pfad: /devices/system/cpu/cpu2
+  - Subsystem: cpu
+  - Treiber: processor
+
+Gerät: /sys/devices/system/cpu/cpu3
+  - Name: cpu3
+  - Pfad: /devices/system/cpu/cpu3
+  - Subsystem: cpu
+  - Treiber: processor
+
+Gerät: /sys/devices/system/edac/mc
+  - Name: mc
+  - Pfad: /devices/system/edac/mc
+  - Subsystem: edac
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/machinecheck/machinecheck0
+  - Name: machinecheck0
+  - Pfad: /devices/system/machinecheck/machinecheck0
+  - Subsystem: machinecheck
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/machinecheck/machinecheck1
+  - Name: machinecheck1
+  - Pfad: /devices/system/machinecheck/machinecheck1
+  - Subsystem: machinecheck
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/machinecheck/machinecheck2
+  - Name: machinecheck2
+  - Pfad: /devices/system/machinecheck/machinecheck2
+  - Subsystem: machinecheck
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/machinecheck/machinecheck3
+  - Name: machinecheck3
+  - Pfad: /devices/system/machinecheck/machinecheck3
+  - Subsystem: machinecheck
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory0
+  - Name: memory0
+  - Pfad: /devices/system/memory/memory0
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory1
+  - Name: memory1
+  - Pfad: /devices/system/memory/memory1
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory10
+  - Name: memory10
+  - Pfad: /devices/system/memory/memory10
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory11
+  - Name: memory11
+  - Pfad: /devices/system/memory/memory11
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory12
+  - Name: memory12
+  - Pfad: /devices/system/memory/memory12
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory13
+  - Name: memory13
+  - Pfad: /devices/system/memory/memory13
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory14
+  - Name: memory14
+  - Pfad: /devices/system/memory/memory14
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory15
+  - Name: memory15
+  - Pfad: /devices/system/memory/memory15
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory16
+  - Name: memory16
+  - Pfad: /devices/system/memory/memory16
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory17
+  - Name: memory17
+  - Pfad: /devices/system/memory/memory17
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory2
+  - Name: memory2
+  - Pfad: /devices/system/memory/memory2
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory3
+  - Name: memory3
+  - Pfad: /devices/system/memory/memory3
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory32
+  - Name: memory32
+  - Pfad: /devices/system/memory/memory32
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory33
+  - Name: memory33
+  - Pfad: /devices/system/memory/memory33
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory34
+  - Name: memory34
+  - Pfad: /devices/system/memory/memory34
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory35
+  - Name: memory35
+  - Pfad: /devices/system/memory/memory35
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory36
+  - Name: memory36
+  - Pfad: /devices/system/memory/memory36
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory37
+  - Name: memory37
+  - Pfad: /devices/system/memory/memory37
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory38
+  - Name: memory38
+  - Pfad: /devices/system/memory/memory38
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory39
+  - Name: memory39
+  - Pfad: /devices/system/memory/memory39
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory4
+  - Name: memory4
+  - Pfad: /devices/system/memory/memory4
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory40
+  - Name: memory40
+  - Pfad: /devices/system/memory/memory40
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory41
+  - Name: memory41
+  - Pfad: /devices/system/memory/memory41
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory42
+  - Name: memory42
+  - Pfad: /devices/system/memory/memory42
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory43
+  - Name: memory43
+  - Pfad: /devices/system/memory/memory43
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory44
+  - Name: memory44
+  - Pfad: /devices/system/memory/memory44
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory45
+  - Name: memory45
+  - Pfad: /devices/system/memory/memory45
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory46
+  - Name: memory46
+  - Pfad: /devices/system/memory/memory46
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory47
+  - Name: memory47
+  - Pfad: /devices/system/memory/memory47
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory48
+  - Name: memory48
+  - Pfad: /devices/system/memory/memory48
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory49
+  - Name: memory49
+  - Pfad: /devices/system/memory/memory49
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory5
+  - Name: memory5
+  - Pfad: /devices/system/memory/memory5
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory50
+  - Name: memory50
+  - Pfad: /devices/system/memory/memory50
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory51
+  - Name: memory51
+  - Pfad: /devices/system/memory/memory51
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory52
+  - Name: memory52
+  - Pfad: /devices/system/memory/memory52
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory53
+  - Name: memory53
+  - Pfad: /devices/system/memory/memory53
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory54
+  - Name: memory54
+  - Pfad: /devices/system/memory/memory54
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory55
+  - Name: memory55
+  - Pfad: /devices/system/memory/memory55
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory56
+  - Name: memory56
+  - Pfad: /devices/system/memory/memory56
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory57
+  - Name: memory57
+  - Pfad: /devices/system/memory/memory57
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory58
+  - Name: memory58
+  - Pfad: /devices/system/memory/memory58
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory59
+  - Name: memory59
+  - Pfad: /devices/system/memory/memory59
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory6
+  - Name: memory6
+  - Pfad: /devices/system/memory/memory6
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory60
+  - Name: memory60
+  - Pfad: /devices/system/memory/memory60
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory61
+  - Name: memory61
+  - Pfad: /devices/system/memory/memory61
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory62
+  - Name: memory62
+  - Pfad: /devices/system/memory/memory62
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory63
+  - Name: memory63
+  - Pfad: /devices/system/memory/memory63
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory64
+  - Name: memory64
+  - Pfad: /devices/system/memory/memory64
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory65
+  - Name: memory65
+  - Pfad: /devices/system/memory/memory65
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory66
+  - Name: memory66
+  - Pfad: /devices/system/memory/memory66
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory67
+  - Name: memory67
+  - Pfad: /devices/system/memory/memory67
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory68
+  - Name: memory68
+  - Pfad: /devices/system/memory/memory68
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory69
+  - Name: memory69
+  - Pfad: /devices/system/memory/memory69
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory7
+  - Name: memory7
+  - Pfad: /devices/system/memory/memory7
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory70
+  - Name: memory70
+  - Pfad: /devices/system/memory/memory70
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory71
+  - Name: memory71
+  - Pfad: /devices/system/memory/memory71
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory72
+  - Name: memory72
+  - Pfad: /devices/system/memory/memory72
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory73
+  - Name: memory73
+  - Pfad: /devices/system/memory/memory73
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory74
+  - Name: memory74
+  - Pfad: /devices/system/memory/memory74
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory75
+  - Name: memory75
+  - Pfad: /devices/system/memory/memory75
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory76
+  - Name: memory76
+  - Pfad: /devices/system/memory/memory76
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory77
+  - Name: memory77
+  - Pfad: /devices/system/memory/memory77
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory8
+  - Name: memory8
+  - Pfad: /devices/system/memory/memory8
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/memory/memory9
+  - Name: memory9
+  - Pfad: /devices/system/memory/memory9
+  - Subsystem: memory
+  - Treiber: (null)
+
+Gerät: /sys/devices/system/node/node0
+  - Name: node0
+  - Pfad: /devices/system/node/node0
+  - Subsystem: node
+  - Treiber: (null)
+
+Gerät: /sys/devices/tracepoint
+  - Name: tracepoint
+  - Pfad: /devices/tracepoint
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/uncore_arb
+  - Name: uncore_arb
+  - Pfad: /devices/uncore_arb
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/uncore_cbox_0
+  - Name: uncore_cbox_0
+  - Pfad: /devices/uncore_cbox_0
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/uncore_cbox_1
+  - Name: uncore_cbox_1
+  - Pfad: /devices/uncore_cbox_1
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/uncore_imc
+  - Name: uncore_imc
+  - Pfad: /devices/uncore_imc
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/uprobe
+  - Name: uprobe
+  - Pfad: /devices/uprobe
+  - Subsystem: event_source
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/0:64
+  - Name: 0:64
+  - Pfad: /devices/virtual/bdi/0:64
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/0:65
+  - Name: 0:65
+  - Pfad: /devices/virtual/bdi/0:65
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:0
+  - Name: 7:0
+  - Pfad: /devices/virtual/bdi/7:0
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:1
+  - Name: 7:1
+  - Pfad: /devices/virtual/bdi/7:1
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:10
+  - Name: 7:10
+  - Pfad: /devices/virtual/bdi/7:10
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:11
+  - Name: 7:11
+  - Pfad: /devices/virtual/bdi/7:11
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:2
+  - Name: 7:2
+  - Pfad: /devices/virtual/bdi/7:2
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:3
+  - Name: 7:3
+  - Pfad: /devices/virtual/bdi/7:3
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:4
+  - Name: 7:4
+  - Pfad: /devices/virtual/bdi/7:4
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:5
+  - Name: 7:5
+  - Pfad: /devices/virtual/bdi/7:5
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:6
+  - Name: 7:6
+  - Pfad: /devices/virtual/bdi/7:6
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:7
+  - Name: 7:7
+  - Pfad: /devices/virtual/bdi/7:7
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:8
+  - Name: 7:8
+  - Pfad: /devices/virtual/bdi/7:8
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/7:9
+  - Name: 7:9
+  - Pfad: /devices/virtual/bdi/7:9
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/bdi/8:0
+  - Name: 8:0
+  - Pfad: /devices/virtual/bdi/8:0
+  - Subsystem: bdi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop0
+  - Name: loop0
+  - Pfad: /devices/virtual/block/loop0
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop1
+  - Name: loop1
+  - Pfad: /devices/virtual/block/loop1
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop10
+  - Name: loop10
+  - Pfad: /devices/virtual/block/loop10
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop11
+  - Name: loop11
+  - Pfad: /devices/virtual/block/loop11
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop2
+  - Name: loop2
+  - Pfad: /devices/virtual/block/loop2
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop3
+  - Name: loop3
+  - Pfad: /devices/virtual/block/loop3
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop4
+  - Name: loop4
+  - Pfad: /devices/virtual/block/loop4
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop5
+  - Name: loop5
+  - Pfad: /devices/virtual/block/loop5
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop6
+  - Name: loop6
+  - Pfad: /devices/virtual/block/loop6
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop7
+  - Name: loop7
+  - Pfad: /devices/virtual/block/loop7
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop8
+  - Name: loop8
+  - Pfad: /devices/virtual/block/loop8
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/block/loop9
+  - Name: loop9
+  - Pfad: /devices/virtual/block/loop9
+  - Subsystem: block
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/devlink/:ata2--scsi:1:0:0:0
+  - Name: :ata2--scsi:1:0:0:0
+  - Pfad: /devices/virtual/devlink/:ata2--scsi:1:0:0:0
+  - Subsystem: devlink
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/devlink/pci:0000:00:02.0--pci:0000:00:1f.3
+  - Name: pci:0000:00:02.0--pci:0000:00:1f.3
+  - Pfad: /devices/virtual/devlink/pci:0000:00:02.0--pci:0000:00:1f.3
+  - Subsystem: devlink
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/devlink/platform:PNP0C14:00--wmi:86CCFD48-205E-4A77-9C48-2021CBEDE341
+  - Name: platform:PNP0C14:00--wmi:86CCFD48-205E-4A77-9C48-2021CBEDE341
+  - Pfad: /devices/virtual/devlink/platform:PNP0C14:00--wmi:86CCFD48-205E-4A77-9C48-2021CBEDE341
+  - Subsystem: devlink
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/devlink/regulator:regulator.0--i2c:i2c-GDIX1001:00
+  - Name: regulator:regulator.0--i2c:i2c-GDIX1001:00
+  - Pfad: /devices/virtual/devlink/regulator:regulator.0--i2c:i2c-GDIX1001:00
+  - Subsystem: devlink
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/devlink/regulator:regulator.0--i2c:i2c-KIOX010A:00
+  - Name: regulator:regulator.0--i2c:i2c-KIOX010A:00
+  - Pfad: /devices/virtual/devlink/regulator:regulator.0--i2c:i2c-KIOX010A:00
+  - Subsystem: devlink
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/devlink/regulator:regulator.0--i2c:i2c-KIOX020A:00
+  - Name: regulator:regulator.0--i2c:i2c-KIOX020A:00
+  - Pfad: /devices/virtual/devlink/regulator:regulator.0--i2c:i2c-KIOX020A:00
+  - Subsystem: devlink
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/dma_heap/system
+  - Name: system
+  - Pfad: /devices/virtual/dma_heap/system
+  - Subsystem: dma_heap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/dmi/id
+  - Name: id
+  - Pfad: /devices/virtual/dmi/id
+  - Subsystem: dmi
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/graphics/fbcon
+  - Name: fbcon
+  - Pfad: /devices/virtual/graphics/fbcon
+  - Subsystem: graphics
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/input/mice
+  - Name: mice
+  - Pfad: /devices/virtual/input/mice
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/iommu/dmar0
+  - Name: dmar0
+  - Pfad: /devices/virtual/iommu/dmar0
+  - Subsystem: iommu
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/iommu/dmar1
+  - Name: dmar1
+  - Pfad: /devices/virtual/iommu/dmar1
+  - Subsystem: iommu
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/full
+  - Name: full
+  - Pfad: /devices/virtual/mem/full
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/kmsg
+  - Name: kmsg
+  - Pfad: /devices/virtual/mem/kmsg
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/mem
+  - Name: mem
+  - Pfad: /devices/virtual/mem/mem
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/null
+  - Name: null
+  - Pfad: /devices/virtual/mem/null
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/port
+  - Name: port
+  - Pfad: /devices/virtual/mem/port
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/random
+  - Name: random
+  - Pfad: /devices/virtual/mem/random
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/urandom
+  - Name: urandom
+  - Pfad: /devices/virtual/mem/urandom
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/mem/zero
+  - Name: zero
+  - Pfad: /devices/virtual/mem/zero
+  - Subsystem: mem
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/memory_tiering/memory_tier4
+  - Name: memory_tier4
+  - Pfad: /devices/virtual/memory_tiering/memory_tier4
+  - Subsystem: memory_tiering
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/acpi_thermal_rel
+  - Name: acpi_thermal_rel
+  - Pfad: /devices/virtual/misc/acpi_thermal_rel
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/autofs
+  - Name: autofs
+  - Pfad: /devices/virtual/misc/autofs
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/cpu_dma_latency
+  - Name: cpu_dma_latency
+  - Pfad: /devices/virtual/misc/cpu_dma_latency
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/device-mapper
+  - Name: device-mapper
+  - Pfad: /devices/virtual/misc/device-mapper
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/ecryptfs
+  - Name: ecryptfs
+  - Pfad: /devices/virtual/misc/ecryptfs
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/fuse
+  - Name: fuse
+  - Pfad: /devices/virtual/misc/fuse
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/hpet
+  - Name: hpet
+  - Pfad: /devices/virtual/misc/hpet
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/hw_random
+  - Name: hw_random
+  - Pfad: /devices/virtual/misc/hw_random
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/kvm
+  - Name: kvm
+  - Pfad: /devices/virtual/misc/kvm
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/loop-control
+  - Name: loop-control
+  - Pfad: /devices/virtual/misc/loop-control
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/mcelog
+  - Name: mcelog
+  - Pfad: /devices/virtual/misc/mcelog
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/psaux
+  - Name: psaux
+  - Pfad: /devices/virtual/misc/psaux
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/rfkill
+  - Name: rfkill
+  - Pfad: /devices/virtual/misc/rfkill
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/snapshot
+  - Name: snapshot
+  - Pfad: /devices/virtual/misc/snapshot
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/tun
+  - Name: tun
+  - Pfad: /devices/virtual/misc/tun
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/udmabuf
+  - Name: udmabuf
+  - Pfad: /devices/virtual/misc/udmabuf
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid
+  - Name: uhid
+  - Pfad: /devices/virtual/misc/uhid
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006
+  - Name: 0005:1915:0040.0006
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006
+  - Subsystem: hid
+  - Treiber: hid-generic
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006/hidraw/hidraw1
+  - Name: hidraw1
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006/hidraw/hidraw1
+  - Subsystem: hidraw
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006/input/input34
+  - Name: input34
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006/input/input34
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006/input/input34/event15
+  - Name: event15
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006/input/input34/event15
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006/input/input34/mouse3
+  - Name: mouse3
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006/input/input34/mouse3
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006/input/input35
+  - Name: input35
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006/input/input35
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uhid/0005:1915:0040.0006/input/input35/event16
+  - Name: event16
+  - Pfad: /devices/virtual/misc/uhid/0005:1915:0040.0006/input/input35/event16
+  - Subsystem: input
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/uinput
+  - Name: uinput
+  - Pfad: /devices/virtual/misc/uinput
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/userfaultfd
+  - Name: userfaultfd
+  - Pfad: /devices/virtual/misc/userfaultfd
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/misc/vga_arbiter
+  - Name: vga_arbiter
+  - Pfad: /devices/virtual/misc/vga_arbiter
+  - Subsystem: misc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/msr/msr0
+  - Name: msr0
+  - Pfad: /devices/virtual/msr/msr0
+  - Subsystem: msr
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/msr/msr1
+  - Name: msr1
+  - Pfad: /devices/virtual/msr/msr1
+  - Subsystem: msr
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/msr/msr2
+  - Name: msr2
+  - Pfad: /devices/virtual/msr/msr2
+  - Subsystem: msr
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/msr/msr3
+  - Name: msr3
+  - Pfad: /devices/virtual/msr/msr3
+  - Subsystem: msr
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/net/lo
+  - Name: lo
+  - Pfad: /devices/virtual/net/lo
+  - Subsystem: net
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl
+  - Name: intel-rapl
+  - Pfad: /devices/virtual/powercap/intel-rapl
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl-mmio
+  - Name: intel-rapl-mmio
+  - Pfad: /devices/virtual/powercap/intel-rapl-mmio
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl-mmio/intel-rapl-mmio:0
+  - Name: intel-rapl-mmio:0
+  - Pfad: /devices/virtual/powercap/intel-rapl-mmio/intel-rapl-mmio:0
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl-mmio/intel-rapl-mmio:0/intel-rapl-mmio:0:0
+  - Name: intel-rapl-mmio:0:0
+  - Pfad: /devices/virtual/powercap/intel-rapl-mmio/intel-rapl-mmio:0/intel-rapl-mmio:0:0
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl/intel-rapl:0
+  - Name: intel-rapl:0
+  - Pfad: /devices/virtual/powercap/intel-rapl/intel-rapl:0
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:0
+  - Name: intel-rapl:0:0
+  - Pfad: /devices/virtual/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:0
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:1
+  - Name: intel-rapl:0:1
+  - Pfad: /devices/virtual/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:1
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:2
+  - Name: intel-rapl:0:2
+  - Pfad: /devices/virtual/powercap/intel-rapl/intel-rapl:0/intel-rapl:0:2
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/powercap/intel-rapl/intel-rapl:1
+  - Name: intel-rapl:1
+  - Pfad: /devices/virtual/powercap/intel-rapl/intel-rapl:1
+  - Subsystem: powercap
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/ppp/ppp
+  - Name: ppp
+  - Pfad: /devices/virtual/ppp/ppp
+  - Subsystem: ppp
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/sound/seq
+  - Name: seq
+  - Pfad: /devices/virtual/sound/seq
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/sound/timer
+  - Name: timer
+  - Pfad: /devices/virtual/sound/timer
+  - Subsystem: sound
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/cooling_device0
+  - Name: cooling_device0
+  - Pfad: /devices/virtual/thermal/cooling_device0
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/cooling_device1
+  - Name: cooling_device1
+  - Pfad: /devices/virtual/thermal/cooling_device1
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/cooling_device2
+  - Name: cooling_device2
+  - Pfad: /devices/virtual/thermal/cooling_device2
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/cooling_device3
+  - Name: cooling_device3
+  - Pfad: /devices/virtual/thermal/cooling_device3
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/cooling_device4
+  - Name: cooling_device4
+  - Pfad: /devices/virtual/thermal/cooling_device4
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/cooling_device5
+  - Name: cooling_device5
+  - Pfad: /devices/virtual/thermal/cooling_device5
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone0
+  - Name: thermal_zone0
+  - Pfad: /devices/virtual/thermal/thermal_zone0
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone1
+  - Name: thermal_zone1
+  - Pfad: /devices/virtual/thermal/thermal_zone1
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone2
+  - Name: thermal_zone2
+  - Pfad: /devices/virtual/thermal/thermal_zone2
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone2/hwmon2
+  - Name: hwmon2
+  - Pfad: /devices/virtual/thermal/thermal_zone2/hwmon2
+  - Subsystem: hwmon
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone3
+  - Name: thermal_zone3
+  - Pfad: /devices/virtual/thermal/thermal_zone3
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone4
+  - Name: thermal_zone4
+  - Pfad: /devices/virtual/thermal/thermal_zone4
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone4/hwmon3
+  - Name: hwmon3
+  - Pfad: /devices/virtual/thermal/thermal_zone4/hwmon3
+  - Subsystem: hwmon
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/thermal/thermal_zone5
+  - Name: thermal_zone5
+  - Pfad: /devices/virtual/thermal/thermal_zone5
+  - Subsystem: thermal
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/console
+  - Name: console
+  - Pfad: /devices/virtual/tty/console
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/ptmx
+  - Name: ptmx
+  - Pfad: /devices/virtual/tty/ptmx
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty
+  - Name: tty
+  - Pfad: /devices/virtual/tty/tty
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty0
+  - Name: tty0
+  - Pfad: /devices/virtual/tty/tty0
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty1
+  - Name: tty1
+  - Pfad: /devices/virtual/tty/tty1
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty10
+  - Name: tty10
+  - Pfad: /devices/virtual/tty/tty10
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty11
+  - Name: tty11
+  - Pfad: /devices/virtual/tty/tty11
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty12
+  - Name: tty12
+  - Pfad: /devices/virtual/tty/tty12
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty13
+  - Name: tty13
+  - Pfad: /devices/virtual/tty/tty13
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty14
+  - Name: tty14
+  - Pfad: /devices/virtual/tty/tty14
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty15
+  - Name: tty15
+  - Pfad: /devices/virtual/tty/tty15
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty16
+  - Name: tty16
+  - Pfad: /devices/virtual/tty/tty16
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty17
+  - Name: tty17
+  - Pfad: /devices/virtual/tty/tty17
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty18
+  - Name: tty18
+  - Pfad: /devices/virtual/tty/tty18
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty19
+  - Name: tty19
+  - Pfad: /devices/virtual/tty/tty19
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty2
+  - Name: tty2
+  - Pfad: /devices/virtual/tty/tty2
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty20
+  - Name: tty20
+  - Pfad: /devices/virtual/tty/tty20
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty21
+  - Name: tty21
+  - Pfad: /devices/virtual/tty/tty21
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty22
+  - Name: tty22
+  - Pfad: /devices/virtual/tty/tty22
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty23
+  - Name: tty23
+  - Pfad: /devices/virtual/tty/tty23
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty24
+  - Name: tty24
+  - Pfad: /devices/virtual/tty/tty24
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty25
+  - Name: tty25
+  - Pfad: /devices/virtual/tty/tty25
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty26
+  - Name: tty26
+  - Pfad: /devices/virtual/tty/tty26
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty27
+  - Name: tty27
+  - Pfad: /devices/virtual/tty/tty27
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty28
+  - Name: tty28
+  - Pfad: /devices/virtual/tty/tty28
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty29
+  - Name: tty29
+  - Pfad: /devices/virtual/tty/tty29
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty3
+  - Name: tty3
+  - Pfad: /devices/virtual/tty/tty3
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty30
+  - Name: tty30
+  - Pfad: /devices/virtual/tty/tty30
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty31
+  - Name: tty31
+  - Pfad: /devices/virtual/tty/tty31
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty32
+  - Name: tty32
+  - Pfad: /devices/virtual/tty/tty32
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty33
+  - Name: tty33
+  - Pfad: /devices/virtual/tty/tty33
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty34
+  - Name: tty34
+  - Pfad: /devices/virtual/tty/tty34
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty35
+  - Name: tty35
+  - Pfad: /devices/virtual/tty/tty35
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty36
+  - Name: tty36
+  - Pfad: /devices/virtual/tty/tty36
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty37
+  - Name: tty37
+  - Pfad: /devices/virtual/tty/tty37
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty38
+  - Name: tty38
+  - Pfad: /devices/virtual/tty/tty38
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty39
+  - Name: tty39
+  - Pfad: /devices/virtual/tty/tty39
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty4
+  - Name: tty4
+  - Pfad: /devices/virtual/tty/tty4
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty40
+  - Name: tty40
+  - Pfad: /devices/virtual/tty/tty40
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty41
+  - Name: tty41
+  - Pfad: /devices/virtual/tty/tty41
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty42
+  - Name: tty42
+  - Pfad: /devices/virtual/tty/tty42
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty43
+  - Name: tty43
+  - Pfad: /devices/virtual/tty/tty43
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty44
+  - Name: tty44
+  - Pfad: /devices/virtual/tty/tty44
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty45
+  - Name: tty45
+  - Pfad: /devices/virtual/tty/tty45
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty46
+  - Name: tty46
+  - Pfad: /devices/virtual/tty/tty46
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty47
+  - Name: tty47
+  - Pfad: /devices/virtual/tty/tty47
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty48
+  - Name: tty48
+  - Pfad: /devices/virtual/tty/tty48
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty49
+  - Name: tty49
+  - Pfad: /devices/virtual/tty/tty49
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty5
+  - Name: tty5
+  - Pfad: /devices/virtual/tty/tty5
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty50
+  - Name: tty50
+  - Pfad: /devices/virtual/tty/tty50
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty51
+  - Name: tty51
+  - Pfad: /devices/virtual/tty/tty51
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty52
+  - Name: tty52
+  - Pfad: /devices/virtual/tty/tty52
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty53
+  - Name: tty53
+  - Pfad: /devices/virtual/tty/tty53
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty54
+  - Name: tty54
+  - Pfad: /devices/virtual/tty/tty54
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty55
+  - Name: tty55
+  - Pfad: /devices/virtual/tty/tty55
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty56
+  - Name: tty56
+  - Pfad: /devices/virtual/tty/tty56
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty57
+  - Name: tty57
+  - Pfad: /devices/virtual/tty/tty57
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty58
+  - Name: tty58
+  - Pfad: /devices/virtual/tty/tty58
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty59
+  - Name: tty59
+  - Pfad: /devices/virtual/tty/tty59
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty6
+  - Name: tty6
+  - Pfad: /devices/virtual/tty/tty6
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty60
+  - Name: tty60
+  - Pfad: /devices/virtual/tty/tty60
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty61
+  - Name: tty61
+  - Pfad: /devices/virtual/tty/tty61
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty62
+  - Name: tty62
+  - Pfad: /devices/virtual/tty/tty62
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty63
+  - Name: tty63
+  - Pfad: /devices/virtual/tty/tty63
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty7
+  - Name: tty7
+  - Pfad: /devices/virtual/tty/tty7
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty8
+  - Name: tty8
+  - Pfad: /devices/virtual/tty/tty8
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/tty9
+  - Name: tty9
+  - Pfad: /devices/virtual/tty/tty9
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/tty/ttyprintk
+  - Name: ttyprintk
+  - Pfad: /devices/virtual/tty/ttyprintk
+  - Subsystem: tty
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs
+  - Name: vcs
+  - Pfad: /devices/virtual/vc/vcs
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs1
+  - Name: vcs1
+  - Pfad: /devices/virtual/vc/vcs1
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs2
+  - Name: vcs2
+  - Pfad: /devices/virtual/vc/vcs2
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs3
+  - Name: vcs3
+  - Pfad: /devices/virtual/vc/vcs3
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs4
+  - Name: vcs4
+  - Pfad: /devices/virtual/vc/vcs4
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs5
+  - Name: vcs5
+  - Pfad: /devices/virtual/vc/vcs5
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcs6
+  - Name: vcs6
+  - Pfad: /devices/virtual/vc/vcs6
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcsa
+  - Name: vcsa
+  - Pfad: /devices/virtual/vc/vcsa
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcsa1
+  - Name: vcsa1
+  - Pfad: /devices/virtual/vc/vcsa1
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcsa2
+  - Name: vcsa2
+  - Pfad: /devices/virtual/vc/vcsa2
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcsa3
+  - Name: vcsa3
+  - Pfad: /devices/virtual/vc/vcsa3
+  - Subsystem: vc
+  - Treiber: (null)
+
+Gerät: /sys/devices/virtual/vc/vcsa4
+  - Name: vcsa4
+  - Pfad: /devices/virtual/vc/vcsa4
+  - Subsy

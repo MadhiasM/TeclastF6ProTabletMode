@@ -15,7 +15,7 @@ int main() {
         return 1;
     }
 
-    dev = udev_device_new_from_syspath(udev, "/sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-KIOX020A:00");
+    dev = udev_device_new_from_syspath(udev, "/sys/devices/pci0000:00/0000:00:15.0/i2c_designware.0/i2c-1/i2c-KIOX020A:00/iio:device0");
     if (!dev) {
         fprintf(stderr, "Fehler beim Finden des Geräts\n");
         udev_unref(udev);
@@ -86,7 +86,7 @@ int main() {
 
 
     // Mount-Matrix (ACCEL_MOUNT_MATRIX) aus den Geräteeigenschaften abrufen
-    mount_matrix = udev_device_get_sysattr_value(dev, "in_accel_mount_matrix");
+    mount_matrix = udev_device_get_sysattr_value(dev, "ACCEL_MOUNT_MATRIX");
     if (mount_matrix) {
         printf("Mount-Matrix des Geräts %s: %s\n", device_path, mount_matrix);
     } else {
