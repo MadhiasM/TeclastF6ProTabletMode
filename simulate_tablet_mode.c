@@ -84,10 +84,10 @@ float cosine_of_angle(const float vec1[3], const float vec2[3]) {
 
     printf("Dot Product: %f\n", dot); // TODO: Remove
     const float *normal_vec = cross_product(vec1, vec2); // TODO: Refactor
-    printf("Normal Vector\n");
-    printf("X: %f\n", normal_vec[0]);
-    printf("Y: %f\n", normal_vec[1]);
-    printf("Z: %f\n", normal_vec[2]);
+    printf("Normal Vector: ");
+    printf("X: %f, ", normal_vec[0]);
+    printf("Y: %f, ", normal_vec[1]);
+    printf("Z: %f, ", normal_vec[2]);
 
     float mag1 = magnitude(vec1);
     float mag2 = magnitude(vec2);
