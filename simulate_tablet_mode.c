@@ -66,7 +66,7 @@ float magnitude(const float vec[3]) {
     return sqrt(vec[0] * vec[0] + vec[1] * vec[1] + vec[2] * vec[2]);
 }
 
-const float *cross_product(const float vec1[3], const float vec2[3]) {
+float *cross_product(const float vec1[3], const float vec2[3]) {
     static float cross_product[3];
 
     cross_product[0] = vec1[1] * vec2[2] - vec1[2] * vec2[1];
@@ -76,18 +76,30 @@ const float *cross_product(const float vec1[3], const float vec2[3]) {
     return cross_product;
 }
 
-
+// TODO: REMOVE IF NOT NEEDED
+float spat_product(const float vec1[3], const float vec2[3], const float vec3[3]) {
+    return dot_product(cross_product(vec1, vec2), vec3);
+}
 
 // Calculates the cosine of the angle between two vectors
 float cosine_of_angle(const float vec1[3], const float vec2[3]) {
     float dot = dot_product(vec1, vec2);
 
     printf("Dot Product: %f\n", dot); // TODO: Remove
-    const float *normal_vec = cross_product(vec1, vec2); // TODO: Refactor
-    printf("Normal Vector: ");
-    printf("X: %f, ", normal_vec[0]);
-    printf("Y: %f, ", normal_vec[1]);
-    printf("Z: %f, ", normal_vec[2]);
+
+    float *normal_vec = cross_product(vec1, vec2); // TODO: Refactor
+    printf("Normal Vector: "); // TODO: Remove
+    printf("X: %f, ", normal_vec[0]); // TODO: Remove
+    printf("Y: %f, ", normal_vec[1]); // TODO: Remove
+    printf("Z: %f\n", normal_vec[2]); // TODO: Remove
+    float spat_prod = spat_product(vec1, vec2, normal_vec);  // TODO: Refactor and rename vec1/2
+    //printf("Spat Product: %f\n", spat_prod);
+
+    //const float ref_vec[3] = {0, 0, 1};
+    //float orientation1 = dot_product(normal_vec, vec1);
+    //printf("Orientation: %f\n", orientation1);
+    //float orientation2 = dot_product(normal_vec, vec2);
+    //printf("Orientation: %f\n", orientation2);
 
     float mag1 = magnitude(vec1);
     float mag2 = magnitude(vec2);
