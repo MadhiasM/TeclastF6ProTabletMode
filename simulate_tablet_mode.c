@@ -130,6 +130,7 @@ int set_tablet_mode(int mode) {
 }
 
 int main() {
+    // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
     // Mount matrices for base and display
     MountMatrix base_matrix = {{{0, 1, 0}, {1, 0, 0}, {0, 0, 1}}};
     MountMatrix display_matrix = {{{-1, 0, 0}, {0, -1, 0}, {0, 0, -1}}};

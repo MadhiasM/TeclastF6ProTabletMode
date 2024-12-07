@@ -19,3 +19,7 @@ if tabled mode disabled:
   sleep
 else:
   check again before activating (time hysteresis)
+
+
+// TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
+https://www.freedesktop.org/software/systemd/man/latest/libudev.html
