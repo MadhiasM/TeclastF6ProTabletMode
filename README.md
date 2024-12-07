@@ -25,4 +25,4 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 ## Modularity
 - // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
-- Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html). `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0`
+- Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html). `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0`. Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
