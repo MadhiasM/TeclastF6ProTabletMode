@@ -56,6 +56,7 @@ void apply_mount_matrix(const MountMatrix *matrix, const float raw[3], float cor
     }
 }
 
+/*
 // Calculates the dot product of two vectors
 float dot_product(const float vec1[3], const float vec2[3]) {
     return vec1[0] * vec2[0] + vec1[1] * vec2[1] + vec1[2] * vec2[2];
@@ -92,6 +93,7 @@ float cosine_of_angle(const float vec1[3], const float vec2[3]) {
 
     return dot / (mag1 * mag2);
 }
+*/
 
 // Triggers SW_TABLET_MODE via input_event
 int set_tablet_mode(int mode) {
@@ -152,8 +154,6 @@ int main() {
         float raw_base[3], raw_display[3];
         float corrected_base[3], corrected_display[3];
 
-
-
         // Read raw accelerometer values for base
         for (int i = 0; i < 3; i++) {
             if (read_accel_value(base_accel_paths[i], base_accel_scale_path, &raw_base[i]) < 0) {
@@ -187,10 +187,12 @@ int main() {
             normal_vec[0], normal_vec[1], normal_vec[1]);
         */
 
-        // efficient way
-        // This is effectively the x-component of the normal vector (cross product) between base and display accelerometer vector
-        // The x-Component is the rotational axis of the hinge, which means that base and display x componentent will be pretty simular.
-        // More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
+        /*
+        Efficient way
+        This is effectively the x-component of the normal vector (cross product) between base and display accelerometer vector
+        The x-Component is the rotational axis of the hinge, which means that base and display x componentent will be pretty simular.
+        More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
+        */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
 
         // Check if in tablet mode based on determinant sign
