@@ -2,9 +2,13 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <linux/input.h>
-#include <math.h>
+//#include <math.h>
 #include <string.h>
 #include <stdbool.h>
+
+#include <linux/uinput.h>
+#include <stdlib.h>
+
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
 #define SLEEP_TIME 1         // Time in seconds between checks
@@ -95,6 +99,49 @@ float cosine_of_angle(const float vec1[3], const float vec2[3]) {
 }
 */
 
+// Setup uinput device
+int setup_uinput_device() {
+    int fd = open("/dev/uinput", O_WRONLY | O_NONBLOCK);
+    if (fd < 0) {
+        perror("Failed to open /dev/uinput");
+        exit(EXIT_FAILURE);
+    }
+
+    // Enable switch events
+    ioctl(fd, UI_SET_EVBIT, EV_SW);
+    ioctl(fd, UI_SET_SWBIT, SW_TABLET_MODE);
+
+    // Configure uinput device
+    struct uinput_setup usetup = {
+        .id.bustype = BUS_VIRTUAL,
+        .id.vendor = 0x1234,
+        .id.product = 0x5678,
+        .name = "Custom Tablet Mode Switch"
+    };
+    ioctl(fd, UI_DEV_SETUP, &usetup);
+    ioctl(fd, UI_DEV_CREATE);
+
+    return fd;
+}
+
+// Emit SW_TABLET_MODE event
+void emit_event(int fd, int value) {
+    struct input_event ev = {
+        .type = EV_SW,
+        .code = SW_TABLET_MODE,
+        .value = value
+    };
+    write(fd, &ev, sizeof(ev));
+
+    // Synchronize event
+    struct input_event syn = {
+        .type = EV_SYN,
+        .code = SYN_REPORT,
+        .value = 0
+    };
+    write(fd, &syn, sizeof(syn));
+}
+
 // Triggers SW_TABLET_MODE via input_event
 int set_tablet_mode(int mode) {
     const char *input_device = "/dev/input/event0";  // Adjust to your device
@@ -136,6 +183,9 @@ int main() {
     // Mount matrices for base and display
     MountMatrix base_matrix = {{{0, 1, 0}, {1, 0, 0}, {0, 0, 1}}};
     MountMatrix display_matrix = {{{-1, 0, 0}, {0, -1, 0}, {0, 0, -1}}};
+
+    int uinput_fd = setup_uinput_device();
+    printf("Uinput device created.\n");
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {
@@ -203,17 +253,25 @@ int main() {
             return 1;
         }
 
-        // Print accelerometer values and tablet mode status
+        emit_event(uinput_fd, tablet_mode);
+
+        /*
+        // Print accelerometer values
         printf("Base Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_base[0], corrected_base[1], corrected_base[2]);
         printf("Display Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_display[0], corrected_display[1], corrected_display[2]);
+        */
+        // Print tablet mode status
+        // TODO: REMOVE
         printf("Tablet mode: %s\n", tablet_mode ? "Enabled" : "Disabled");
-        printf("\n");
 
         // Sleep for a while before re-checking
         sleep(SLEEP_TIME);
     }
+
+    ioctl(uinput_fd, UI_DEV_DESTROY);
+    close(uinput_fd);
 
     return 0;
 }
