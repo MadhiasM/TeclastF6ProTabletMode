@@ -3,6 +3,8 @@ Script to switch to tablet mode in linux based on KIONIX Accelerometers in base 
 Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is explicitly disabled as can be seen in [Linux Kernel dual_accel_detect.h](https://github.com/torvalds/linux/blob/7503345ac5f5e82fd9a36d6e6b447c016376403a/drivers/platform/x86/dual_accel_detect.h#L9)
 
 # TODO
+## Driver
+- Transform into user space driver to be loaded at startup (if performance is acceptable)
 ## Functionality
 ### Linear algebra
 - Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
