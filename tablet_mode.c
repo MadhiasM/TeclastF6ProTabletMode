@@ -12,8 +12,10 @@
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
 #define SLEEP_TIME 1         // Time in seconds between checks
-#define TABLET_MODE_THRESHOLD -0.5f  // Cosine of 120° (approx. 180° rotation)
-#define PI  3.14159265358979323846
+#define TABLET_MODE_THRESHOLD 0  // 1.0f prevents tablet mode when rotated 360°
+//#define PI  3.14159265358979323846
+
+#
 
 typedef struct {
     float matrix[3][3];
@@ -244,9 +246,9 @@ int main() {
         More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-
+        printf("Determinant: %f\n", determinant);
         // Check if in tablet mode based on determinant sign
-        int tablet_mode = determinant > 0;
+        int tablet_mode = determinant > TABLET_MODE_THRESHOLD;
 
         // Trigger SW_TABLET_MODE
         if (set_tablet_mode(tablet_mode) < 0) {
@@ -255,13 +257,12 @@ int main() {
 
         emit_event(uinput_fd, tablet_mode);
 
-        /*
         // Print accelerometer values
         printf("Base Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_base[0], corrected_base[1], corrected_base[2]);
         printf("Display Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_display[0], corrected_display[1], corrected_display[2]);
-        */
+
         // Print tablet mode status
         // TODO: REMOVE
         printf("Tablet mode: %s\n", tablet_mode ? "Enabled" : "Disabled");

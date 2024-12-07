@@ -7,13 +7,13 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Transform into user space driver to be loaded at startup (if performance is acceptable)
 
 ## Functionality
-- [ ] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently)
 ### Linear algebra
 -[X] Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
 -[X] [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
 
-## Tablet mode activation SW_TABLET_MODE
-- [ ]  Tablet mode activation not working, but it was working in previous version. Copy over state
+## udriver events
+- [X] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
+- [X] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently)
 
 
 ## Performance
@@ -26,6 +26,11 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
 - [ ] Low Pass Filter (if needed) on accel values
+- [ ] PID?
+- [ ] Improve robustness if laptop is rotated 90° to the left or right (determinant will be close to 0 and thus can fluke to above 0). hysteresis is added as workaround, but will prevent tablet mode when rotatet 90° sideways. In this case, maybe take vectors into account in more detail?
+  - For example: if determinant close to 0, then check if y and z acceleration of base and display are similar?? (but that is the same for 0 and 360 degrees)? not sure...
+  - Hysteresis might solve this already?
+  If Y and Z acceleration are close to 0, then it is indistinguishable from a physical viewpoint due to noisy signals
 
 
 ## Modularity
