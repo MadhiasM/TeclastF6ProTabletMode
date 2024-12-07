@@ -7,7 +7,7 @@
 #include <string.h>
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
-#define SLEEP_TIME 0.1         // Time in seconds between checks
+#define SLEEP_TIME 1         // Time in seconds between checks
 #define TABLET_MODE_THRESHOLD -0.5f  // Cosine of 120° (approx. 180° rotation)
 #define PI  3.14159265358979323846
 
