@@ -13,16 +13,18 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 ## udriver events
 - [x] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
-- [x] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently)
+- [x] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently) (State machine: on transition from enable to disable: return to normal orientation. Don't trigger this if already disabled (from disabled to disabled)
 
 
 ## Performance
 ### X-Axis
 - [ ] X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data
 - [ ] Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)
-
+### Cosine
+- [ ] Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug
 ## Robustness
 - [ ] Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$)
+- [ ] Keep state of previous activation status
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
 - [ ] Low Pass Filter (if needed) on accel values
@@ -30,8 +32,9 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Improve robustness if laptop is rotated 90° to the left or right (determinant will be close to 0 and thus can fluke to above 0). hysteresis is added as workaround, but will prevent tablet mode when rotatet 90° sideways. In this case, maybe take vectors into account in more detail?
   - For example: if determinant close to 0, then check if y and z acceleration of base and display are similar?? (but that is the same for 0 and 360 degrees)? not sure...
   - Hysteresis might solve this already?
+  - Prevent wrapping from -180 to 180
   If Y and Z acceleration are close to 0, then it is indistinguishable from a physical viewpoint due to noisy signals
-
+- [ ] Some sort of fallback / safe state to trigger disable tablet mode if something weird is detected? To be able to get control of keyboard again
 
 ## Modularity
 - [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
