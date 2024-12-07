@@ -4,29 +4,31 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 # TODO
 ## Driver
-- Transform into user space driver to be loaded at startup (if performance is acceptable)
+- [ ] Transform into user space driver to be loaded at startup (if performance is acceptable)
+
 ## Functionality
+- [ ] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently)
 ### Linear algebra
-- Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
-- [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
+-[X] Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
+-[X] [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
 
 ## Tablet mode activation SW_TABLET_MODE
-- Tablet mode activation not working, but it was working in previous version. Copy over state
+- [ ]  Tablet mode activation not working, but it was working in previous version. Copy over state
 
 
 ## Performance
 ### X-Axis
-- X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data
-- Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)
+- [ ] X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data
+- [ ] Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)
 
 ## Robustness
-- Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$)
-- Time hysteresis (if enable conditions are met: test again $4$ times)
-- Sleep (if enable conditions are not met: sleep for $n$ secs)
-- Low Pass Filter (if needed) on accel values
+- [ ] Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$)
+- [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
+- [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
+- [ ] Low Pass Filter (if needed) on accel values
 
 
 ## Modularity
-- // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
-- Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html) with [Overview](https://www.freedesktop.org/software/systemd/man/latest/) or [udev_device_get_sysattr_value](https://www.freedesktop.org/software/systemd/man/latest/udev_device_get_sysattr_value.html#)
-- `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
+- [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
+- [ ] Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html) with [Overview](https://www.freedesktop.org/software/systemd/man/latest/) or [udev_device_get_sysattr_value](https://www.freedesktop.org/software/systemd/man/latest/udev_device_get_sysattr_value.html#)
+- [ ] `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
