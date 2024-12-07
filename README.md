@@ -8,8 +8,8 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 ## Functionality
 ### Linear algebra
--[x] Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
--[x] [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
+- [x] Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
+- [x] [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
 
 ## udriver events
 - [x] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
