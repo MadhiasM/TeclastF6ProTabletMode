@@ -7,7 +7,7 @@
 #include <string.h>
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
-#define SLEEP_TIME 3         // Time in seconds between checks
+#define SLEEP_TIME 0.1         // Time in seconds between checks
 #define TABLET_MODE_THRESHOLD -0.5f  // Cosine of 120° (approx. 180° rotation)
 #define PI  3.14159265358979323846
 
@@ -43,6 +43,7 @@ int read_accel_value(const char *path, const char *path_scale, float *value) {
 
     fclose(file_raw);
     *value = (float)raw * scale;  // Scale based on device specs
+    fclose(file_scale);
     return 0;
 }
 
@@ -65,10 +66,28 @@ float magnitude(const float vec[3]) {
     return sqrt(vec[0] * vec[0] + vec[1] * vec[1] + vec[2] * vec[2]);
 }
 
+const float *cross_product(const float vec1[3], const float vec2[3]) {
+    static float cross_product[3];
+
+    cross_product[0] = vec1[1] * vec2[2] - vec1[2] * vec2[1];
+    cross_product[1] = vec1[2] * vec2[0] - vec1[0] * vec2[2];
+    cross_product[2] = vec1[0] * vec2[1] - vec1[1] * vec2[0];
+
+    return cross_product;
+}
+
+
+
 // Calculates the cosine of the angle between two vectors
 float cosine_of_angle(const float vec1[3], const float vec2[3]) {
     float dot = dot_product(vec1, vec2);
-    printf("Dot Product: %f\n", dot); // TODO REMOVE
+
+    printf("Dot Product: %f\n", dot); // TODO: Remove
+    const float *normal_vec = cross_product(vec1, vec2); // TODO: Refactor
+    printf("Normal Vector\n");
+    printf("X: %f\n", normal_vec[0]);
+    printf("Y: %f\n", normal_vec[1]);
+    printf("Z: %f\n", normal_vec[2]);
 
     float mag1 = magnitude(vec1);
     float mag2 = magnitude(vec2);
@@ -76,7 +95,7 @@ float cosine_of_angle(const float vec1[3], const float vec2[3]) {
         return 0.0f;  // Avoid division by zero
     }
 
-    float ang = acos(dot / (mag1 * mag2))*360/(2 * PI); // TODO: REMOVE
+    float ang = acos(dot / (mag1 * mag2))*360/(2 * PI); // TODO: Remove
     printf("Angle: %f\n", ang); // TODO: REMOVE
 
     return dot / (mag1 * mag2);
