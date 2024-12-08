@@ -9,7 +9,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Update README.md
 - [ ] **Create makefile for compile, deploy, enable service etc**
 ## Driver
-- [x] Transform into user space driver to be loaded at startup (if performance is acceptable)
+- [x] ~~Transform into user space driver to be loaded at startup (once performance is acceptable)~~
 
 ## Functionality
 ### Linear algebra
@@ -26,7 +26,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [x] ~~Emit event only on change (integrated into update mode)~~
 - [ ] Increase efficiency (write/read/cpu cycles)?
 - [x] ~~Event/Interrupt based instead of polling (Sleep, then check)?~~ Using Nanosleep
-  - `usleep` (deprecated), `nanosleep` (POSIX), `thrd_sleep` (C11), `usleep_range_idle` (no userspace), `hrtimer` (precision)
+  - `usleep` (deprecated), `nanosleep` (POSIX), `thrd_sleep` (C11), `usleep_range_idle` (no userspace), `hrtimer` (precision, callback, more)
 
 ## Performance
 ### Reduce loop load
@@ -42,10 +42,10 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 ### Mount Matrix
 - [ ] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
 ## Robustness
-- [x] Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$) (Done with determinant instead)
-- [x] Enable at values close to 180
+- [x] ~~Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$) (Done with determinant instead)~~
+- [x] ~~Enable at values close to 180~~
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
-- [x] Keep state of previous activation status
+- [x] ~~Keep state of previous activation status~~
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
 - [ ] Low Pass Filter (if needed) on accel values
