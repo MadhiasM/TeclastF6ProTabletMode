@@ -13,11 +13,18 @@
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
 #define SLEEP_TIME 1         // Time in seconds between checks
 //#define TABLET_MODE_HYSTERESIS 5.0f  // Hysteresis in degrees from 180° position in which tablet mode is not changed
-#define TABLET_MODE_HYSTERESIS 5.0f  // Hysteresis of the determinant that triggers enabling or disabling the tablet mode
+#define TABLET_MODE_HYSTERESIS 10.0f  // Hysteresis of the determinant that triggers enabling or disabling the tablet mode
 //#define TABLET_MODE_COS_THRESHOLD -0.866f  // Threshold of cos below which tablet mode will be enabled. This is to unsere that in fully opened position, angle will not wrape from -180° to +180° due to noise and disable tablet mode
 //#define PI  3.14159265358979323846
 
-#
+#define PATH "/sys/bus/iio/devices/"
+#define BASE_DEVICE "iio:device0/"
+#define DISPLAY_DEVICE "iio:device1/"
+#define ACCEL_X "in_accel_x_raw"
+#define ACCEL_Y "in_accel_y_raw"
+#define ACCEL_Z "in_accel_z_raw"
+#define ACCEL_SCALE "in_accel_scale"
+// #define MOUNT_MATRIX "in_accel_mount_matrix"
 
 typedef struct {
     float matrix[3][3];
@@ -249,16 +256,17 @@ int main() {
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {
-        "/sys/bus/iio/devices/iio:device0/in_accel_x_raw",
-        "/sys/bus/iio/devices/iio:device0/in_accel_y_raw",
-        "/sys/bus/iio/devices/iio:device0/in_accel_z_raw"};
+        PATH BASE_DEVICE ACCEL_X,
+        PATH BASE_DEVICE ACCEL_Y,
+        PATH BASE_DEVICE ACCEL_Z};
     const char *display_accel_paths[3] = {
-        "/sys/bus/iio/devices/iio:device1/in_accel_x_raw",
-        "/sys/bus/iio/devices/iio:device1/in_accel_y_raw",
-        "/sys/bus/iio/devices/iio:device1/in_accel_z_raw"};
+        PATH DISPLAY_DEVICE ACCEL_X,
+        PATH DISPLAY_DEVICE ACCEL_Y,
+        PATH DISPLAY_DEVICE ACCEL_Z};
 
-    const char *base_accel_scale_path = "/sys/bus/iio/devices/iio:device0/in_accel_scale";
-    const char *display_accel_scale_path = "/sys/bus/iio/devices/iio:device1/in_accel_scale";
+
+    const char *base_accel_scale_path = PATH BASE_DEVICE ACCEL_SCALE;
+    const char *display_accel_scale_path = PATH DISPLAY_DEVICE ACCEL_SCALE;
 
     int is_tablet_mode = 0;
     float raw_base[3], raw_display[3];
@@ -292,7 +300,7 @@ int main() {
         More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-        //printf("Determinant: %f\n", determinant);
+        printf("Determinant: %f\n", determinant);
 
         // TODO: REMOVE
         //float angle = atan2(corrected_display[2] * corrected_base[1] - corrected_display[1] * corrected_base[2], corrected_display[1] * corrected_base[2] - corrected_display[2] * corrected_base[1])*360/(2 * 3.1415926);
@@ -322,13 +330,11 @@ int main() {
 
         emit_event(uinput_fd, is_tablet_mode);
 
-        /*
         // Print accelerometer values
         printf("Base Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_base[0], corrected_base[1], corrected_base[2]);
         printf("Display Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_display[0], corrected_display[1], corrected_display[2]);
-        */
 
         // Print tablet mode status
         // TODO: REMOVE
