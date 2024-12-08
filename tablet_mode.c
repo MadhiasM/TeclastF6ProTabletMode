@@ -134,34 +134,6 @@ float sine_of_angle(const float vec1[3], const float vec2[3]) {
 }
 */
 
-// update tablet mode with hysteresis
-// Alternative: use *stat and include as input variable
-
-// variante 2
-void update_mode(float val, float thresh, int *mod) {
-     if (*mod == 1 && val < -thresh) {
-         *mod = 0;
-         printf("Tablet mode deactivated.\n"); // TODO: REMOVE
-     } else if (*mod == 0 && val > thresh) {
-         *mod = 1;
-         printf("Tablet mode activated.\n"); // TODO: REMOVE
-     }
- }
-
-
- /*
-// variante 2
-int update_mode(float val, float thresh) {
-     static int stat = 0;
-     if (stat == 1 && val < -thresh) {
-         stat = 0;
-     } else if (stat == 0 && val > thresh) {
-         stat = 1;
-     }
-     return stat;
- }
- */
-
 // Setup uinput device
 int setup_uinput_device() {
     int fd = open("/dev/uinput", O_WRONLY | O_NONBLOCK);
@@ -204,6 +176,36 @@ void emit_event(int fd, int value) {
     };
     write(fd, &syn, sizeof(syn));
 }
+
+// update tablet mode with hysteresis
+// variante 1
+void update_mode(float val, float thresh, int dev, int *mod) {
+     if (*mod == 1 && val < -thresh) {
+         *mod = 0;
+         printf("Tablet mode deactivated.\n"); // TODO: REMOVE
+         emit_event(dev, *mod);
+
+     } else if (*mod == 0 && val > thresh) {
+         *mod = 1;
+         printf("Tablet mode activated.\n"); // TODO: REMOVE
+         emit_event(dev, *mod);
+
+     }
+ }
+
+
+ /*
+// variante 2
+int update_mode(float val, float thresh) {
+     static int stat = 0;
+     if (stat == 1 && val < -thresh) {
+         stat = 0;
+     } else if (stat == 0 && val > thresh) {
+         stat = 1;
+     }
+     return stat;
+ }
+ */
 
 /*
 // Triggers SW_TABLET_MODE via input_event
@@ -326,14 +328,12 @@ int main() {
 
         // Check if in tablet mode based on determinant sign
         //int is_tablet_mode = (determinant > 0);
-        update_mode(determinant, TABLET_MODE_HYSTERESIS, &is_tablet_mode);
+        update_mode(determinant, TABLET_MODE_HYSTERESIS, uinput_fd, &is_tablet_mode);
         // Trigger SW_TABLET_MODE
 
         //if (set_tablet_mode(is_tablet_mode) < 0) {
         //    return 1;
         //}
-
-        emit_event(uinput_fd, is_tablet_mode);
 
         /*
         // Print accelerometer values
