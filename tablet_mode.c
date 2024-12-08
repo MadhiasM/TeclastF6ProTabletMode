@@ -2,12 +2,14 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <linux/input.h>
-#include <math.h>
-#include <string.h>
+//#include <math.h>
+//#include <string.h>
 #include <stdbool.h>
 
 #include <linux/uinput.h>
 #include <stdlib.h>
+
+#include <time.h>
 
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
@@ -242,6 +244,9 @@ int set_tablet_mode(int mode) {
 */
 
 int main() {
+    struct timespec ts = { .tv_sec = 1, .tv_nsec = 0 }; // 1 Sekunde
+
+
     // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
     // Mount matrices for base and display
     MountMatrix base_matrix = {{{0, 1, 0}, {1, 0, 0}, {0, 0, 1}}};
@@ -300,7 +305,7 @@ int main() {
         More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-        printf("Determinant: %f\n", determinant);
+        //printf("Determinant: %f\n", determinant);
 
         // TODO: REMOVE
         //float angle = atan2(corrected_display[2] * corrected_base[1] - corrected_display[1] * corrected_base[2], corrected_display[1] * corrected_base[2] - corrected_display[2] * corrected_base[1])*360/(2 * 3.1415926);
@@ -330,11 +335,13 @@ int main() {
 
         emit_event(uinput_fd, is_tablet_mode);
 
+        /*
         // Print accelerometer values
         printf("Base Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_base[0], corrected_base[1], corrected_base[2]);
         printf("Display Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_display[0], corrected_display[1], corrected_display[2]);
+        */
 
         // Print tablet mode status
         // TODO: REMOVE
@@ -342,7 +349,7 @@ int main() {
 
         // TODO: Find alternative
         // Sleep for a while before re-checking
-        sleep(SLEEP_TIME);
+        nanosleep(&ts, NULL);
     }
 
     ioctl(uinput_fd, UI_DEV_DESTROY);
