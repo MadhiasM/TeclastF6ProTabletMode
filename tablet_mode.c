@@ -313,9 +313,10 @@ int main() {
         //int is_tablet_mode = (determinant > 0);
         update_mode(determinant, TABLET_MODE_HYSTERESIS, &is_tablet_mode);
         // Trigger SW_TABLET_MODE
-        if (set_tablet_mode(is_tablet_mode) < 0) {
-            return 1;
-        }
+
+        //if (set_tablet_mode(is_tablet_mode) < 0) {
+        //    return 1;
+        //}
 
         emit_event(uinput_fd, is_tablet_mode);
 
