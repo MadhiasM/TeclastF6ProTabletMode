@@ -5,6 +5,8 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 # TODO
 ## Installation
 - [ ] Automate steps below using bash script
+- [ ] Clean up code, remove commented out stuff
+- [ ] Update README.md
 ## Driver
 - [x] Transform into user space driver to be loaded at startup (if performance is acceptable)
 
