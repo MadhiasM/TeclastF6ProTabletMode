@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <linux/input.h>
-//#include <math.h>
+#include <math.h>
 #include <string.h>
 #include <stdbool.h>
 
@@ -132,11 +132,11 @@ float sine_of_angle(const float vec1[3], const float vec2[3]) {
 void update_mode(float val, float thresh, int *mod) {
      if (*mod == 1 && val < -thresh) {
          *mod = 0;
+         printf("Tablet mode deactivated.\n"); // TODO: REMOVE
      } else if (*mod == 0 && val > thresh) {
          *mod = 1;
+         printf("Tablet mode activated.\n"); // TODO: REMOVE
      }
-     printf("Mod: %d\n", *mod);
-     printf("Value: %.2f, Threshold: %.2f\n", val, thresh);
  }
 
 
@@ -239,7 +239,11 @@ int main() {
     MountMatrix display_matrix = {{{-1, 0, 0}, {0, -1, 0}, {0, 0, -1}}};
 
     int uinput_fd = setup_uinput_device();
-    printf("Uinput device created.\n");
+    if (!uinput_fd) {
+        printf("Could not create Uinput device.\n");
+    }
+
+    //printf("Uinput device created.\n");
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {
@@ -254,9 +258,12 @@ int main() {
     const char *base_accel_scale_path = "/sys/bus/iio/devices/iio:device0/in_accel_scale";
     const char *display_accel_scale_path = "/sys/bus/iio/devices/iio:device1/in_accel_scale";
 
+    int is_tablet_mode = 0;
+    float raw_base[3], raw_display[3];
+    float corrected_base[3], corrected_display[3];
+
     while (1) {
-        float raw_base[3], raw_display[3];
-        float corrected_base[3], corrected_display[3];
+
 
         // Read raw accelerometer values for base
         for (int i = 0; i < 3; i++) {
@@ -272,6 +279,7 @@ int main() {
             }
         }
 
+        // TODO: Make more efficient by removing most of this from the loop. Maybe this can be done before
         // Apply mount matrices
         apply_mount_matrix(&base_matrix, raw_base, corrected_base);
         apply_mount_matrix(&display_matrix, raw_display, corrected_display);
@@ -289,7 +297,13 @@ int main() {
         More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-        printf("Determinant: %f\n", determinant);
+        //printf("Determinant: %f\n", determinant);
+
+        // TODO: REMOVE
+        //float angle = atan2(corrected_display[2] * corrected_base[1] - corrected_display[1] * corrected_base[2], corrected_display[1] * corrected_base[2] - corrected_display[2] * corrected_base[1])*360/(2 * 3.1415926);
+        //float angle = atan2(corrected_display[2], corrected_display[1]) - atan2(corrected_base[2], corrected_base[1]) * 360 / (2 * 3.1415926);
+        //printf("ANGLE: %.2f\n", angle);
+
 
         /*
         // TODO: REMOVE
@@ -304,9 +318,7 @@ int main() {
 
         // Check if in tablet mode based on determinant sign
         //int is_tablet_mode = (determinant > 0);
-        int is_tablet_mode = 0;
         update_mode(determinant, TABLET_MODE_HYSTERESIS, &is_tablet_mode);
-        printf("TABLETMODE: %d\n", is_tablet_mode);
         // Trigger SW_TABLET_MODE
         if (set_tablet_mode(is_tablet_mode) < 0) {
             return 1;
@@ -324,7 +336,7 @@ int main() {
 
         // Print tablet mode status
         // TODO: REMOVE
-        printf("Tablet mode: %s\n", is_tablet_mode ? "Enabled" : "Disabled");
+        //printf("Tablet mode: %s\n", is_tablet_mode ? "Enabled" : "Disabled");
 
         // TODO: Find alternative
         // Sleep for a while before re-checking
