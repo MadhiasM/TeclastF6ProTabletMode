@@ -47,7 +47,8 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
 - [x] ~~Keep state of previous activation status~~
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
-- [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
+- [x] ~~Sleep (if enable conditions are not met: sleep for $n$ secs)~~
+- [ ] TODO: Catch error if return -1
 - [ ] Low Pass Filter (if needed) on accel values
 - [ ] PID?
 - [ ] Improve robustness if laptop is rotated 90° to the left or right (determinant will be close to 0 and thus can fluke to above 0). hysteresis is added as workaround, but will prevent tablet mode when rotatet 90° sideways. In this case, maybe take vectors into account in more detail?
