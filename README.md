@@ -10,20 +10,39 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 ### Linear algebra
 - [x] Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
 - [x] [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
+- [ ] ~~Calculate angle only between y and z, since x is aligned. Moreover angle is polluted by x if is is big in magnitude (rotated sideway 90°)~~ (DOES NOT WORK)
+- [ ] Understand why angle calculatio is off if rotated diagonally
 
 ## udriver events
 - [x] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
-- [x] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently) (State machine: on transition from enable to disable: return to normal orientation. Don't trigger this if already disabled (from disabled to disabled)
-
+- [ ] Return screen orientation to normal when leaving tablet mode (will keep last orientation currently) (State machine: on transition from enable to disable: return to normal orientation. Don't trigger this if already disabled (from disabled to disabled)
+- [ ] Fix that sometimes mouse or keyboard is not reactivated. (sporadic)
+- [ ] Increase efficiency (write/read/cpu cycles)?
+- [ ] Interrupt?
 
 ## Performance
 ### X-Axis
 - [ ] X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data
 - [ ] Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)
+- Updated functions:
+```c
+// Calculates the dot product of two vectors
+float dot_product(const float vec1[3], const float vec2[3]) {
+    return vec1[1] * vec2[1] + vec1[2] * vec2[2];
+}
+
+// Calculates the magnitude of a vector
+float magnitude(const float vec[3]) {
+    return sqrt(vec[1] * vec[1] + vec[2] * vec[2]);
+}
+```
+
 ### Cosine
 - [ ] Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug
 ## Robustness
 - [ ] Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$)
+- [x] Enable at values close to 180
+- [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
 - [ ] Keep state of previous activation status
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
