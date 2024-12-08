@@ -7,6 +7,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Automate steps below using bash script
 - [ ] Clean up code, remove commented out stuff
 - [ ] Update README.md
+- [ ] **Create makefile for compile, deploy, enable service etc**
 ## Driver
 - [x] Transform into user space driver to be loaded at startup (if performance is acceptable)
 
@@ -21,31 +22,23 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 ## udriver events
 - [x] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
 - [ ] **Return screen orientation to normal when leaving tablet mode (will keep last orientation currently) (State machine: on transition from enable to disable: return to normal orientation. Don't trigger this if already disabled (from disabled to disabled)**
-- [ ] Fix that sometimes mouse or keyboard is not reactivated. (sporadic)
+- [ ] Fix mouse or keyboard  sometimes  not being reactivated. (sporadic)
+- [x] ~~Emit event only on change (integrated into update mode)~~
 - [ ] Increase efficiency (write/read/cpu cycles)?
-- [ ] **Event/Interrupt based instead of polling (Sleep, then check)?**
+- [x] ~~Event/Interrupt based instead of polling (Sleep, then check)?~~ Using Nanosleep
+  - `usleep` (deprecated), `nanosleep` (POSIX), `thrd_sleep` (C11), `usleep_range_idle` (no userspace), `hrtimer` (precision)
 
 ## Performance
-### X-Axis
-- [x] Move vector declaration out of loop
-- [x] Move is_tablet_mode declaration out of loop
-- [x] Compine read accel values into one loop
-- [ ] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)**
-- [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data**
-- Updated functions:
-```c
-// Calculates the dot product of two vectors
-float dot_product(const float vec1[3], const float vec2[3]) {
-    return vec1[1] * vec2[1] + vec1[2] * vec2[2];
-}
+### Reduce loop load
+- [x] ~~Move vector declaration out of loop~~
+- [x] ~~Move is_tablet_mode declaration out of loop~~
+- [x] ~~Compine read accel values into one loop~~
+### Simplification
+- [ ] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
+- [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data**
 
-// Calculates the magnitude of a vector
-float magnitude(const float vec[3]) {
-    return sqrt(vec[1] * vec[1] + vec[2] * vec[2]);
-}
-```
 ### Cosine
-- [ ] Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug
+- [x] ~~Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug~~ Using determinant of Y-Z instead
 ### Mount Matrix
 - [ ] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
 ## Robustness
