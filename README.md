@@ -23,6 +23,9 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 ## Performance
 ### X-Axis
+- [x] Move vector declaration out of loop
+- [x] Move is_tablet_mode declaration out of loop
+- [x] Compine read accel values into one loop
 - [ ] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, harder to understand)**
 - [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data. Only read in Y and Z data**
 - Updated functions:
@@ -40,12 +43,12 @@ float magnitude(const float vec[3]) {
 ### Cosine
 - [ ] Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug
 ### Mount Matrix
-- [ ] Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.
+- [ ] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
 ## Robustness
-- [ ] Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$)
+- [x] Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$) (Done with determinant instead)
 - [x] Enable at values close to 180
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
-- [ ] Keep state of previous activation status
+- [x] Keep state of previous activation status
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [ ] Sleep (if enable conditions are not met: sleep for $n$ secs)
 - [ ] Low Pass Filter (if needed) on accel values

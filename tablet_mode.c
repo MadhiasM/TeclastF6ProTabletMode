@@ -196,6 +196,7 @@ void emit_event(int fd, int value) {
     write(fd, &syn, sizeof(syn));
 }
 
+/*
 // Triggers SW_TABLET_MODE via input_event
 int set_tablet_mode(int mode) {
     const char *input_device = "/dev/input/event0";  // Adjust to your device
@@ -231,6 +232,7 @@ int set_tablet_mode(int mode) {
     close(fd);
     return 0;
 }
+*/
 
 int main() {
     // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
