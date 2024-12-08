@@ -98,5 +98,6 @@ sudo systemctl start tablet-mode.service
 ```
 ### Stop
 ```bash
-sudo systemctl stop tablet-mode.service```
+sudo systemctl stop tablet-mode.service
+```
 (only if service shall not be used)
