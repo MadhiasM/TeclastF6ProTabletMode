@@ -58,6 +58,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
   - Prevent wrapping from -180 to 180
   If Y and Z acceleration are close to 0, then it is indistinguishable from a physical viewpoint due to noisy signals
 - [ ] Some sort of fallback / safe state to trigger disable tablet mode if something weird is detected? To be able to get control of keyboard again
+- [ ] Break from while loop if error occurs to stop service
 
 ## Modularity
 - [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
