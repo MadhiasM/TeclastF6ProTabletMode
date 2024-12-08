@@ -65,6 +65,11 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
 
 # Installation
+## Compilation
+```
+gcc -o tablet_mode tablet_mode.c
+```
+
 ## Location
 ```bash
 sudo cp tablet_mode /usr/local/bin/tablet_mode
