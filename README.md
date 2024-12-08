@@ -45,6 +45,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [x] ~~Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$) (Done with determinant instead)~~
 - [x] ~~Enable at values close to 180~~
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
+- [ ] Adjust hysteresis threshold based on X-acceleration? (if X-acceleration is high, hystresis value will be small, thus appropriate threshold might be better)
 - [x] ~~Keep state of previous activation status~~
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [x] ~~Sleep (if enable conditions are not met: sleep for $n$ secs)~~
