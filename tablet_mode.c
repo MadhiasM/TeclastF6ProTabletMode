@@ -264,17 +264,10 @@ int main() {
 
     while (1) {
 
-
-        // Read raw accelerometer values for base
+        // Read raw accelerometer values for display and base
         for (int i = 0; i < 3; i++) {
-            if (read_accel_value(base_accel_paths[i], base_accel_scale_path, &raw_base[i]) < 0) {
-                return 1;
-            }
-        }
-
-        // Read raw accelerometer values for display
-        for (int i = 0; i < 3; i++) {
-            if (read_accel_value(display_accel_paths[i], display_accel_scale_path, &raw_display[i]) < 0) {
+            if (read_accel_value(base_accel_paths[i], base_accel_scale_path, &raw_base[i]) < 0 ||
+                read_accel_value(display_accel_paths[i], display_accel_scale_path, &raw_display[i]) < 0) {
                 return 1;
             }
         }
