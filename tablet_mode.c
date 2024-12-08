@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <linux/input.h>
-#include <math.h>
+//#include <math.h>
 #include <string.h>
 #include <stdbool.h>
 
@@ -12,9 +12,10 @@
 
 //#define ACCEL_SCALE 0.019163f  // Scale accelerometer values 0.019163 from "/sys/bus/iio/devices/iio\:device0/in_accel_scale"
 #define SLEEP_TIME 1         // Time in seconds between checks
-#define TABLET_MODE_HYSTERESIS 5.0f  // Hysteresis in degrees from 180° position in which tablet mode is not changed
-#define TABLET_MODE_COS_THRESHOLD -0.866f  // Threshold of cos below which tablet mode will be enabled. This is to unsere that in fully opened position, angle will not wrape from -180° to +180° due to noise and disable tablet mode
-#define PI  3.14159265358979323846
+//#define TABLET_MODE_HYSTERESIS 5.0f  // Hysteresis in degrees from 180° position in which tablet mode is not changed
+#define TABLET_MODE_HYSTERESIS 5.0f  // Hysteresis of the determinant that triggers enabling or disabling the tablet mode
+//#define TABLET_MODE_COS_THRESHOLD -0.866f  // Threshold of cos below which tablet mode will be enabled. This is to unsere that in fully opened position, angle will not wrape from -180° to +180° due to noise and disable tablet mode
+//#define PI  3.14159265358979323846
 
 #
 
@@ -63,7 +64,7 @@ void apply_mount_matrix(const MountMatrix *matrix, const float raw[3], float cor
     }
 }
 
-
+/*
 // Calculates the dot product of two vectors
 float dot_product(const float vec1[3], const float vec2[3]) {
     return vec1[0] * vec2[0] + vec1[1] * vec2[1] + vec1[2] * vec2[2];
@@ -84,11 +85,9 @@ float *cross_product(const float vec1[3], const float vec2[3]) {
     return cross_product;
 }
 
-/*
 bool same_sign(float a, float b) {
     return a * b >= 0.0f;
 }
-*/
 
 // Calculates the cosine of the angle between two vectors
 float cosine_of_angle(const float vec1[3], const float vec2[3]) {
@@ -104,6 +103,7 @@ float cosine_of_angle(const float vec1[3], const float vec2[3]) {
 
     return dot / (mag1 * mag2);
 }
+*/
 
 /*
 // TODO: REMOVE IF NOT NEEDED
@@ -123,6 +123,34 @@ float sine_of_angle(const float vec1[3], const float vec2[3]) {
 
     return mag_norm / (mag1 * mag2);
 }
+*/
+
+// update tablet mode with hysteresis
+// Alternative: use *stat and include as input variable
+
+// variante 2
+void update_mode(float val, float thresh, int *mod) {
+     if (*mod == 1 && val < -thresh) {
+         *mod = 0;
+     } else if (*mod == 0 && val > thresh) {
+         *mod = 1;
+     }
+     printf("Mod: %d\n", *mod);
+     printf("Value: %.2f, Threshold: %.2f\n", val, thresh);
+ }
+
+
+ /*
+// variante 2
+int update_mode(float val, float thresh) {
+     static int stat = 0;
+     if (stat == 1 && val < -thresh) {
+         stat = 0;
+     } else if (stat == 0 && val > thresh) {
+         stat = 1;
+     }
+     return stat;
+ }
  */
 
 // Setup uinput device
@@ -248,9 +276,11 @@ int main() {
         apply_mount_matrix(&base_matrix, raw_base, corrected_base);
         apply_mount_matrix(&display_matrix, raw_display, corrected_display);
 
+        /*
         float *normal_vec = cross_product(corrected_base, corrected_display); // TODO: Refactor
         printf("Normal Vector: X=%.2f, Y=%.2f, Z=%.2f\n",
             normal_vec[0], normal_vec[1], normal_vec[1]);
+        */
 
         /*
         Efficient way
@@ -261,6 +291,7 @@ int main() {
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
         printf("Determinant: %f\n", determinant);
 
+        /*
         // TODO: REMOVE
         // Calculate cosine of the angle between base and display accelerometer vectors
         float cos_angle = cosine_of_angle(corrected_base, corrected_display);
@@ -269,11 +300,13 @@ int main() {
         float angle = (is_det_pos? -1 : 1) * acos(cos_angle)*360/(2 * PI); // TODO: REMOVE
         printf("Cosine of angle: %.2f\n", cos_angle);
         printf("Angle: %.2f°\n", angle);
-
+        */
 
         // Check if in tablet mode based on determinant sign
-        int is_tablet_mode = (determinant > 0 || cos_angle < TABLET_MODE_COS_THRESHOLD);
-
+        //int is_tablet_mode = (determinant > 0);
+        int is_tablet_mode = 0;
+        update_mode(determinant, TABLET_MODE_HYSTERESIS, &is_tablet_mode);
+        printf("TABLETMODE: %d\n", is_tablet_mode);
         // Trigger SW_TABLET_MODE
         if (set_tablet_mode(is_tablet_mode) < 0) {
             return 1;
@@ -281,11 +314,13 @@ int main() {
 
         emit_event(uinput_fd, is_tablet_mode);
 
+        /*
         // Print accelerometer values
         printf("Base Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_base[0], corrected_base[1], corrected_base[2]);
         printf("Display Accelerometer: X=%.2f, Y=%.2f, Z=%.2f\n",
                corrected_display[0], corrected_display[1], corrected_display[2]);
+        */
 
         // Print tablet mode status
         // TODO: REMOVE
