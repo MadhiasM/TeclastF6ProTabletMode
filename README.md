@@ -3,8 +3,10 @@ Script to switch to tablet mode in linux based on KIONIX Accelerometers in base 
 Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is explicitly disabled as can be seen in [Linux Kernel dual_accel_detect.h](https://github.com/torvalds/linux/blob/7503345ac5f5e82fd9a36d6e6b447c016376403a/drivers/platform/x86/dual_accel_detect.h#L9)
 
 # TODO
+## Installation
+- [ ] Automate steps below using bash script
 ## Driver
-- [ ] **Transform into user space driver to be loaded at startup (if performance is acceptable)**
+- [x] Transform into user space driver to be loaded at startup (if performance is acceptable)
 
 ## Functionality
 ### Linear algebra
@@ -64,3 +66,42 @@ float magnitude(const float vec[3]) {
 - [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
 - [ ] Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html) with [Overview](https://www.freedesktop.org/software/systemd/man/latest/) or [udev_device_get_sysattr_value](https://www.freedesktop.org/software/systemd/man/latest/udev_device_get_sysattr_value.html#)
 - [ ] `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
+
+# Installation
+## Location
+```bash
+sudo cp tablet_mode /usr/local/bin/tablet_mode
+```
+
+## Create service
+```bash
+sudo nano /etc/systemd/system/tabler-mode.service
+```
+
+Paste:
+```ini
+[Unit]
+Description=Custom Tablet Mode Switch
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/tablet_mode
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Enable
+```bash
+sudo systemctl enable tablet-mode.service
+```
+### Start
+```bash
+sudo systemctl start tablet-mode.service
+```
+### Stop
+```bash
+sudo systemctl stop tablet-mode.service```
+(only if service shall not be used)
