@@ -11,7 +11,7 @@
 
 
 #define SLEEP_TIME 1         // Time in seconds between checks
-#define TABLET_MODE_HYSTERESIS 10.0f  // Hysteresis of the determinant that triggers enabling or disabling the tablet mode
+#define TABLET_MODE_HYSTERESIS 20.0f  // Hysteresis of the determinant that triggers enabling or disabling the tablet mode
 
 #define PATH "/sys/bus/iio/devices/"
 #define BASE_DEVICE "iio:device0/"
@@ -126,7 +126,7 @@ void update_mode(float val, float thresh, int dev, int *mod) {
  }
 
 int main() {
-    struct timespec ts = { .tv_sec = 1, .tv_nsec = 0 }; // 1 Sekunde
+    struct timespec ts = { .tv_sec = SLEEP_TIME, .tv_nsec = 0 }; // 1 Sekunde
 
 
     // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
@@ -159,6 +159,10 @@ int main() {
     float raw_base[3], raw_display[3];
     float corrected_base[3], corrected_display[3];
 
+
+    // TODO:
+    // READ MOUNT MATRIX HERE
+    // THEN BASED ON READINGS: READ 2 DIMENSIONS NEEDED (in our case: Y and Z of both (after correction))
     while (1) {
 
         // Read raw accelerometer values for display and base
