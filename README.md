@@ -18,6 +18,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] ~~Calculate angle only between y and z, since x is aligned. Moreover angle is polluted by x if is is big in magnitude (rotated sideway 90°)~~ (DOES NOT WORK)
 - [ ] Understand why angle calculation is off if rotated diagonally (Due to aligned X-axis between base and display?)
 - [ ] Test if same issue is in windows
+- [ ] Custom OSDWindow Toast when enabling/disabing
 
 ## udriver events
 - [x] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
