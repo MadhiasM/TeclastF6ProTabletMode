@@ -12,8 +12,8 @@
 
 
 #define SLEEP_TIME 1         // Time in seconds between checks
-#define TABLET_MODE_HYSTERESIS 0.3f  // Hysteresis of the determinant that triggers enabling or disabling the tablet mode
-#define TABLET_MODE_ROLL_THRESHOLD 8 // Threshold of the acceleration in x-direction (hinge axis), which will prevent tablet mode change if exceeded. This is done since it is no longer physically possible to determine the hinge angle in this situation since the two acceleration vector of base and display will be nearly identical.
+#define TABLET_MODE_HYSTERESIS 0.5f  // Hysteresis of the hinge angle in rad that triggers enabling or disabling the tablet mode
+//#define TABLET_MODE_ROLL_THRESHOLD 9.5f // Threshold of the acceleration in x-direction (hinge axis), which will prevent tablet mode change if exceeded. This is done since it is no longer physically possible to determine the hinge angle in this situation since the two acceleration vector of base and display will be nearly identical.
 #define PATH "/sys/bus/iio/devices/"
 #define BASE_DEVICE "iio:device0/"
 #define DISPLAY_DEVICE "iio:device1/"
@@ -21,8 +21,6 @@
 #define ACCEL_Y "in_accel_y_raw"
 #define ACCEL_Z "in_accel_z_raw"
 #define ACCEL_SCALE "in_accel_scale"
-
-#define PI 3.141592654
 
 typedef struct {
     float matrix[3][3];
@@ -117,12 +115,10 @@ void emit_event(int fd, int value) {
 void update_mode(float val, float thresh, int dev, int *mod) {
      if (*mod == 1 && val < -thresh) {
          *mod = 0;
-         printf("Tablet mode deactivated.\n"); // TODO: REMOVE
          emit_event(dev, *mod);
 
      } else if (*mod == 0 && val > thresh) {
          *mod = 1;
-         printf("Tablet mode activated.\n"); // TODO: REMOVE
          emit_event(dev, *mod);
 
      }
@@ -139,10 +135,9 @@ int main() {
 
     int uinput_fd = setup_uinput_device();
     if (!uinput_fd) {
-        printf("Could not create Uinput device.\n");
+        return -1;
     }
 
-    //printf("Uinput device created.\n");
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {
@@ -182,26 +177,16 @@ int main() {
         apply_mount_matrix(&display_matrix, raw_display, corrected_display);
 
         /*
-        This is effectively the x-component of the normal vector (cross product) between base and display accelerometer vector
-        The x-Component is the rotational axis of the hinge, which means that base and display x componentent will be pretty simular.
-        More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
+        See: https://dfimg.dfrobot.com/enshop/image/data/SEN0168/BMA220%20datasheet.pdf
+        https://wiki.dfrobot.com/How_to_Use_a_Three-Axis_Accelerometer_for_Tilt_Sensing
         */
-        //float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-
-        //float pitch_angle_base = atan2(-corrected_base[1], -corrected_base[2]);  // TODO: Vorzeichen?
-        //float pitch_angle_display = atan2(-corrected_display[1], -corrected_display[2]);  // TODO: Vorzeichen?
         float hinge_angle = atan2(-corrected_base[1], -corrected_base[2]) - atan2(-corrected_display[1], -corrected_display[2]);
-
-        //printf("Base:    Pitch: %.2f\n", pitch_angle_base * 360 / (2 * PI));
-        //printf("Display: Pitch: %.2f\n", pitch_angle_display * 360 / (2 * PI));
-        printf("Hinge:   Pitch: %.2f\n", hinge_angle * 360 / (2 * PI));
-
 
         // TODO: ADD AS IFDEF, so the check for roll threshold and hinge angle hysteresis can be quickly commented out
         // Check if in tablet mode based on determinant sign with hysteresis. emit update on mode change
-        if (corrected_base[0] < TABLET_MODE_ROLL_THRESHOLD) {
-            update_mode(hinge_angle, TABLET_MODE_HYSTERESIS, uinput_fd, &is_tablet_mode);
-        }
+        //if (fabs(corrected_base[0]) < TABLET_MODE_ROLL_THRESHOLD) {
+        update_mode(hinge_angle, TABLET_MODE_HYSTERESIS, uinput_fd, &is_tablet_mode);
+        //}
 
         // Sleep for a while before re-checking
         nanosleep(&ts, NULL);

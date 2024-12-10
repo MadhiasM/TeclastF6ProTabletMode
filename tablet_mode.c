@@ -114,14 +114,10 @@ void emit_event(int fd, int value) {
 void update_mode(float val, float thresh, int dev, int *mod) {
      if (*mod == 1 && val < -thresh) {
          *mod = 0;
-         printf("Tablet mode deactivated.\n"); // TODO: REMOVE
          emit_event(dev, *mod);
-
      } else if (*mod == 0 && val > thresh) {
          *mod = 1;
-         printf("Tablet mode activated.\n"); // TODO: REMOVE
          emit_event(dev, *mod);
-
      }
  }
 
@@ -136,10 +132,8 @@ int main() {
 
     int uinput_fd = setup_uinput_device();
     if (!uinput_fd) {
-        printf("Could not create Uinput device.\n");
+        return -1;
     }
-
-    //printf("Uinput device created.\n");
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {

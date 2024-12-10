@@ -2,6 +2,7 @@
 Script to switch to tablet mode in linux based on KIONIX Accelerometers in base and display which does not work due identity matrix used as fallback despite correct matrix being defined in 60-sensor.hwdb.
 Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is explicitly disabled as can be seen in [Linux Kernel dual_accel_detect.h](https://github.com/torvalds/linux/blob/7503345ac5f5e82fd9a36d6e6b447c016376403a/drivers/platform/x86/dual_accel_detect.h#L9)
 
+Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy
 # TODO
 ## Installation
 - [ ] Automate steps below using bash script
