@@ -61,6 +61,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [ ] Some sort of fallback / safe state to trigger disable tablet mode if something weird is detected? To be able to get control of keyboard again
 - [ ] Break from while loop if error occurs to stop service
 - [ ] Improve behaviour when laptop wakes up from sleep. If state changes while in sleep, it is not registered
+- [ ] Add both hysteresis and roll angle threshold as `IFDEF` makros to be able to quickly comment out this check
 
 ## Modularity
 - [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding

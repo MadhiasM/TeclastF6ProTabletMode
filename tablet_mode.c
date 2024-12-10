@@ -185,6 +185,7 @@ int main() {
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
 
+        // TODO: ADD AS IFDEF, so the check for roll threshold and hinge angle hysteresis can be quickly commented out
         // Check if in tablet mode based on determinant sign with hysteresis. emit update on mode change
         update_mode(determinant, TABLET_MODE_HYSTERESIS, uinput_fd, &is_tablet_mode);
 
