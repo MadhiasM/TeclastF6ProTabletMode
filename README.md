@@ -36,7 +36,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 - [x] ~~Compine read accel values into one loop~~
 ### Simplification
 - [ ] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
-- [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data**
+- [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data, all calculation can be done in one line by reading 2 accel values per sensor only**
 
 ### Cosine
 - [x] ~~Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug~~ Using determinant of Y-Z instead
