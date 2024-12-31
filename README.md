@@ -10,48 +10,35 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 - [ ] Clean up code, remove commented out stuff
 - [ ] Update README.md
 - [ ] **Create makefile for compile, deploy, enable service etc**
-## Driver
-- [x] ~~Transform into user space driver to be loaded at startup (once performance is acceptable)~~
 
 ## Functionality
 ### Linear algebra
-- [x] Angle between two vectors needs to be between-180 and +180°, standard method is always between 0 and 180°. This way one cannot destinguish between degrees above and below 180, like 90 and 270.
-- [x] [Maths](https://math.stackexchange.com/questions/1904152/how-to-find-an-angle-in-range-180-180-between-2-vectors)
-- [ ] ~~Calculate angle only between y and z, since x is aligned. Moreover angle is polluted by x if is is big in magnitude (rotated sideway 90°)~~ (DOES NOT WORK)
-- [ ] Understand why angle calculation is off if rotated diagonally (Due to aligned X-axis between base and display?)
-- [ ] Test if same issue is in windows
 - [ ] Custom OSDWindow Toast when enabling/disabing
+- [ ] Provide different approaches
+  - [x] Using determinant between y- & z-axis reading the full vectors
+  - [x] Using angle between y- & z-axis with atan2 reading the full vectors
+  - [x] Using reduced input by just reading needed values (x can be neglected)
 
-## udriver events
-- [x] Tablet mode activation SW_TABLET_MODE not working, but it was working in previous version. Copy over state
+
+## Service: udriver events
 - [ ] **Return screen orientation to normal when leaving tablet mode (will keep last orientation currently) (State machine: on transition from enable to disable: return to normal orientation. Don't trigger this if already disabled (from disabled to disabled)**
 - [ ] Fix mouse or keyboard  sometimes  not being reactivated. (sporadic)
-- [x] ~~Emit event only on change (integrated into update mode)~~
 - [ ] Increase efficiency (write/read/cpu cycles)?
-- [x] ~~Event/Interrupt based instead of polling (Sleep, then check)?~~ Using Nanosleep
-  - `usleep` (deprecated), `nanosleep` (POSIX), `thrd_sleep` (C11), `usleep_range_idle` (no userspace), `hrtimer` (precision, callback, more)
+- [ ] Provide different approaches for execution events
+  - [x] Polling using while-loop with nanosleep
+  - [ ] Event-based using inotify for event-driven architecture instead of while loop with nanosleep
+- [ ] Add systemctl logging events
 
 ## Performance
-### Reduce loop load
-- [x] ~~Move vector declaration out of loop~~
-- [x] ~~Move is_tablet_mode declaration out of loop~~
-- [x] ~~Compine read accel values into one loop~~
 ### Simplification
 - [ ] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
 - [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data, all calculation can be done in one line by reading 2 accel values per sensor only**
-
-### Cosine
-- [x] ~~Use Cosine instead of angle for hysteresis , since it is faster to compute. For now angle is fine since it is easier to understand and debug~~ Using determinant of Y-Z instead
 ### Mount Matrix
 - [ ] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
 ## Robustness
-- [x] ~~Angle Activation Hysteresis (enable at $-\alpha°$, disable at $+\alpha°$) (Done with determinant instead)~~
-- [x] ~~Enable at values close to 180~~
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
 - [ ] Adjust hysteresis threshold based on X-acceleration? (if X-acceleration is high, hystresis value will be small, thus appropriate threshold might be better)
-- [x] ~~Keep state of previous activation status~~
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
-- [x] ~~Sleep (if enable conditions are not met: sleep for $n$ secs)~~
 - [ ] TODO: Catch error if return -1
 - [ ] Low Pass Filter (if needed) on accel values
 - [ ] PID?
@@ -61,7 +48,7 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
   - Prevent wrapping from -180 to 180
   If Y and Z acceleration are close to 0, then it is indistinguishable from a physical viewpoint due to noisy signals
 - [ ] Some sort of fallback / safe state to trigger disable tablet mode if something weird is detected? To be able to get control of keyboard again
-- [ ] Break from while loop if error occurs to stop service
+- [ ] Break from while loop if error occurs to stop service (then close all devices)
 - [ ] Improve behaviour when laptop wakes up from sleep. If state changes while in sleep, it is not registered
 - [ ] Add both hysteresis and roll angle threshold as `IFDEF` makros to be able to quickly comment out this check
 
@@ -83,7 +70,7 @@ sudo cp tablet_mode /usr/local/bin/tablet_mode
 
 ## Create service
 ```bash
-sudo nano /etc/systemd/system/tabler-mode.service
+sudo nano /etc/systemd/system/tablet-mode.service
 ```
 
 Paste:
