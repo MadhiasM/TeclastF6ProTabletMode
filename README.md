@@ -31,9 +31,9 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 ## Performance
 ### Simplification
 - [x] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
-- [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data, all calculation can be done in one line by reading 2 accel values per sensor only**
+- [x] **X-axis can be disregarded since it is same between base and display, only read Y and Z data, all calculation can be done in one line by reading 2 accel values per sensor only**
 ### Mount Matrix
-- [ ] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
+- [x] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
 ## Robustness
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
 - [ ] Adjust hysteresis threshold based on X-acceleration? (if X-acceleration is high, hystresis value will be small, thus appropriate threshold might be better)
