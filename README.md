@@ -7,7 +7,7 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 ## Installation
 ### Compile Service
 ```
-gcc -o tablet_mode tablet_mode.c
+gcc -o tablet_mode tablet_mode.c -lsystemd
 ```
 
 ### Copy Service
