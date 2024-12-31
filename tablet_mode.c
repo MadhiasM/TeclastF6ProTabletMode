@@ -164,6 +164,8 @@ int main() {
     float corrected_base[3], corrected_display[3];
 
 
+    // Event-driven approach is not possible since HW/SW triggers are not supported by the sensor driver (/sys/bus/iio/devices/iio:device0/trigger/current_trigger is empty)
+    // poll() or inotify() are not efficient since they will run on change of raw acceleration values which are very volatile due to noise or slightest laptop movements. Hence a while-loop with 1 s nanosleep is used.
     // TODO:
     // READ MOUNT MATRIX HERE
     // THEN BASED ON READINGS: READ 2 DIMENSIONS NEEDED (in our case: Y and Z of both (after correction))
