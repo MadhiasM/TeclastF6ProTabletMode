@@ -27,11 +27,10 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 - [ ] Provide different approaches for execution events
   - [x] Polling using while-loop with nanosleep
   - [ ] Event-based using inotify for event-driven architecture instead of while loop with nanosleep
-- [x] Add systemctl logging events
 
 ## Performance
 ### Simplification
-- [ ] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
+- [x] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
 - [ ] **X-axis can be disregarded since it is same between base and display, only read Y and Z data, all calculation can be done in one line by reading 2 accel values per sensor only**
 ### Mount Matrix
 - [ ] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
