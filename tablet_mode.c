@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include <systemd/sd-journal.h>
 
 #include <fcntl.h>
 #include <time.h>
@@ -109,15 +110,23 @@ void emit_event(int fd, int value) {
     write(fd, &syn, sizeof(syn));
 }
 
+void log_journal(const char *message) {
+    sd_journal_send("MESSAGE=%s", message,
+                    "PRIORITY=%i", LOG_INFO,
+                    "PROGRAM=tablet_mode",
+                    NULL);
+}
+
 // update tablet mode with hysteresis
-// variante 1
 void update_mode(float val, float thresh, int dev, int *mod) {
      if (*mod == 1 && val < -thresh) {
          *mod = 0;
          emit_event(dev, *mod);
+         log_journal("Tablet Mode disabled.");
      } else if (*mod == 0 && val > thresh) {
          *mod = 1;
          emit_event(dev, *mod);
+         log_journal("Tablet Mode enabled.");
      }
  }
 
@@ -133,6 +142,8 @@ int main() {
     if (!uinput_fd) {
         return -1;
     }
+
+    log_journal("Tablet Mode Daemon started.");
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {
@@ -177,7 +188,6 @@ int main() {
         More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
-        printf("DET:    %.2f\n", determinant);
 
         // TODO: ADD AS IFDEF, so the check for roll threshold and hinge angle hysteresis can be quickly commented out
         // Check if in tablet mode based on determinant sign with hysteresis. emit update on mode change

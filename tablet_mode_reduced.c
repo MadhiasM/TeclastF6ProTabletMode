@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+#include <systemd/sd-journal.h>
 
 #include <fcntl.h>
 #include <time.h>
@@ -110,15 +111,23 @@ void emit_event(int fd, int value) {
     write(fd, &syn, sizeof(syn));
 }
 
+void log_journal(const char *message) {
+    sd_journal_send("MESSAGE=%s", message,
+                    "PRIORITY=%i", LOG_INFO,
+                    "PROGRAM=tablet_mode",
+                    NULL);
+}
+
 // update tablet mode with hysteresis
-// variante 1
 void update_mode(float val, float thresh, int dev, int *mod) {
      if (*mod == 1 && val < -thresh) {
          *mod = 0;
          emit_event(dev, *mod);
+         log_journal("Tablet Mode disabled.");
      } else if (*mod == 0 && val > thresh) {
          *mod = 1;
          emit_event(dev, *mod);
+         log_journal("Tablet Mode enabled.");
      }
  }
 
@@ -135,6 +144,11 @@ int main() {
     if (!uinput_fd) {
         return -1;
     }
+
+    sd_journal_send("MESSAGE=Tablet Mode Daemon started.",
+                    "PRIORITY=%i", LOG_INFO,
+                    "PROGRAM=tablet_mode",
+                    NULL);
 
     // Paths to accelerometer data in Sysfs
     const char *base_accel_paths[3] = {
