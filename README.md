@@ -5,7 +5,7 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Further performance improvements in vector maths to be done.
 
 # Installation
-## Compilation
+## Compile Service
 ```
 gcc -o tablet_mode tablet_mode.c
 ```
