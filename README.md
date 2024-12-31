@@ -3,20 +3,29 @@ Script to switch to tablet mode in linux based on KIONIX Accelerometers in base 
 Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is explicitly disabled as can be seen in [Linux Kernel dual_accel_detect.h](https://github.com/torvalds/linux/blob/7503345ac5f5e82fd9a36d6e6b447c016376403a/drivers/platform/x86/dual_accel_detect.h#L9)
 
 Use tablet_mode.c as middle ground between performance and accuracy, table_mode_reduced.c for performance, tablet_mode_pitch_comp.c for accuracy.
-Event-driven approach is not possible as it triggers are not supported by sensor driver. `poll` and `inotify` are not efficient due to volatility of raw sensor data.
+Event-driven approach is not possible as it triggers are not supported by sensor driver. `poll` and `inotify` are not efficient due to volatility of raw sensor data. Hence, while-loop with nanosleep is used to avoid busy-wait
 
 ## Installation
-### Compile Service
+### Clone Repository
+```
+git clone https://github.com/MadhiasM/TeclastF6ProTabletMode.git
+```
+### a) Automated (make)
+```
+make
+```
+### b) Manualy
+#### Compile Service
 ```
 gcc -o tablet_mode tablet_mode.c -lsystemd
 ```
 
-### Copy Service
+#### Copy Service
 ```bash
 sudo cp tablet_mode /usr/local/bin/tablet_mode
 ```
 
-### Create Service
+#### Create Service
 ```bash
 sudo nano /etc/systemd/system/tablet-mode.service
 ```
@@ -36,15 +45,15 @@ User=root
 WantedBy=multi-user.target
 ```
 
-### Enable Service
+#### Enable Service
 ```bash
 sudo systemctl enable tablet-mode.service
 ```
-### Start Service
+#### Start Service
 ```bash
 sudo systemctl start tablet-mode.service
 ```
-### Stop Service
+#### Stop Service
 (only if needed when you won't to suspend the service or replace/update it)
 ```bash
 sudo systemctl stop tablet-mode.service
