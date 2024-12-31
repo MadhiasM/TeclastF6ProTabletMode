@@ -4,6 +4,51 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Further performance improvements in vector maths to be done.
 
+# Installation
+## Compilation
+```
+gcc -o tablet_mode tablet_mode.c
+```
+
+## Copy Service
+```bash
+sudo cp tablet_mode /usr/local/bin/tablet_mode
+```
+
+## Create Service
+```bash
+sudo nano /etc/systemd/system/tablet-mode.service
+```
+
+Paste:
+```ini
+[Unit]
+Description=Custom Tablet Mode Switch
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/tablet_mode
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Enable Service
+```bash
+sudo systemctl enable tablet-mode.service
+```
+### Start Service
+```bash
+sudo systemctl start tablet-mode.service
+```
+### Stop Service
+(only if needed when you won't to suspend the service or replace/update it)
+```bash
+sudo systemctl stop tablet-mode.service
+```
+___
 # TODO
 ## Installation
 - [ ] Automate steps below using bash script
@@ -27,18 +72,15 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 - [ ] Provide different approaches for execution events
   - [x] Polling using while-loop with nanosleep
   - [ ] Event-based using inotify for event-driven architecture instead of while loop with nanosleep
+- [ ] Catch error if return -1
+- [ ] log errors
 
 ## Performance
-### Simplification
-- [x] **Potentially skip mount matrix by directly adjusting formula for calculating  (performance better, but it would be hardcoded, less modular)**
-- [x] **X-axis can be disregarded since it is same between base and display, only read Y and Z data, all calculation can be done in one line by reading 2 accel values per sensor only**
-### Mount Matrix
-- [x] **Remove apply_mount_matrix from while loop if possible. Hardcoding this should be easy by swapping the indices when reading values according to mount matrix.**
 ## Robustness
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
+### Hysteresis
 - [ ] Adjust hysteresis threshold based on X-acceleration? (if X-acceleration is high, hystresis value will be small, thus appropriate threshold might be better)
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
-- [ ] TODO: Catch error if return -1
 - [ ] Low Pass Filter (if needed) on accel values
 - [ ] PID?
 - [ ] Improve robustness if laptop is rotated 90° to the left or right (determinant will be close to 0 and thus can fluke to above 0). hysteresis is added as workaround, but will prevent tablet mode when rotatet 90° sideways. In this case, maybe take vectors into account in more detail?
@@ -55,48 +97,3 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 - [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
 - [ ] Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html) with [Overview](https://www.freedesktop.org/software/systemd/man/latest/) or [udev_device_get_sysattr_value](https://www.freedesktop.org/software/systemd/man/latest/udev_device_get_sysattr_value.html#)
 - [ ] `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
-
-# Installation
-## Compilation
-```
-gcc -o tablet_mode tablet_mode.c
-```
-
-## Location
-```bash
-sudo cp tablet_mode /usr/local/bin/tablet_mode
-```
-
-## Create service
-```bash
-sudo nano /etc/systemd/system/tablet-mode.service
-```
-
-Paste:
-```ini
-[Unit]
-Description=Custom Tablet Mode Switch
-After=multi-user.target
-
-[Service]
-ExecStart=/usr/local/bin/tablet_mode
-Restart=always
-User=root
-
-[Install]
-WantedBy=multi-user.target
-```
-
-### Enable
-```bash
-sudo systemctl enable tablet-mode.service
-```
-### Start
-```bash
-sudo systemctl start tablet-mode.service
-```
-### Stop
-```bash
-sudo systemctl stop tablet-mode.service
-```
-(only if service shall not be used)
