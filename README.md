@@ -4,18 +4,18 @@ Moreover, for KIONIX accelerometers in base and display, `SW_TABLET_MODE` is exp
 
 Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Further performance improvements in vector maths to be done.
 
-# Installation
-## Compile Service
+## Installation
+### Compile Service
 ```
 gcc -o tablet_mode tablet_mode.c
 ```
 
-## Copy Service
+### Copy Service
 ```bash
 sudo cp tablet_mode /usr/local/bin/tablet_mode
 ```
 
-## Create Service
+### Create Service
 ```bash
 sudo nano /etc/systemd/system/tablet-mode.service
 ```
@@ -49,15 +49,15 @@ sudo systemctl start tablet-mode.service
 sudo systemctl stop tablet-mode.service
 ```
 ___
-# TODO
-## Installation
+## TODO
+### Installation
 - [ ] Automate steps below using bash script
 - [ ] Clean up code, remove commented out stuff
 - [ ] Update README.md
 - [ ] **Create makefile for compile, deploy, enable service etc**
 
-## Functionality
-### Linear algebra
+### Functionality
+#### Linear algebra
 - [ ] Custom OSDWindow Toast when enabling/disabing
 - [ ] Provide different approaches
   - [x] Using determinant between y- & z-axis reading the full vectors
@@ -65,7 +65,7 @@ ___
   - [x] Using reduced input by just reading needed values (x can be neglected)
 
 
-## Service: udriver events
+### Service: udriver events
 - [ ] **Return screen orientation to normal when leaving tablet mode (will keep last orientation currently) (State machine: on transition from enable to disable: return to normal orientation. Don't trigger this if already disabled (from disabled to disabled)**
 - [ ] Fix mouse or keyboard  sometimes  not being reactivated. (sporadic)
 - [ ] Increase efficiency (write/read/cpu cycles)?
@@ -75,10 +75,10 @@ ___
 - [ ] Catch error if return -1
 - [ ] log errors
 
-## Performance
-## Robustness
+### Performance
+#### Robustness
 - [ ] Increase robustness in diagonal or 90° sideways situations or fully folded. Here the accuracy is very low
-### Hysteresis
+#### Hysteresis
 - [ ] Adjust hysteresis threshold based on X-acceleration? (if X-acceleration is high, hystresis value will be small, thus appropriate threshold might be better)
 - [ ] Time hysteresis (if enable conditions are met: test again $4$ times)
 - [ ] Low Pass Filter (if needed) on accel values
@@ -93,7 +93,7 @@ ___
 - [ ] Improve behaviour when laptop wakes up from sleep. If state changes while in sleep, it is not registered
 - [ ] Add both hysteresis and roll angle threshold as `IFDEF` makros to be able to quickly comment out this check
 
-## Modularity
+### Modularity
 - [ ] // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
 - [ ] Use [libudev](https://www.freedesktop.org/software/systemd/man/latest/libudev.html) with [Overview](https://www.freedesktop.org/software/systemd/man/latest/) or [udev_device_get_sysattr_value](https://www.freedesktop.org/software/systemd/man/latest/udev_device_get_sysattr_value.html#)
 - [ ] `get_mount_matrix_udev.c` work in progress, but it does not show the same mount matrix as `udevadm info -n  /dev/iio:device0` (`ACCEL_MOUNT_MATRIX`). Showing `in_accel_mount_matrix` (identity), as in `sys/bus/iio/devices/iio\:device*/`
