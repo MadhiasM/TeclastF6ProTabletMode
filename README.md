@@ -11,7 +11,7 @@ Event-driven approach is not possible as it triggers are not supported by sensor
 git clone https://github.com/MadhiasM/TeclastF6ProTabletMode.git
 ```
 ### a) Automated
-#### make
+#### Makefile
 ```
 make
 ```
