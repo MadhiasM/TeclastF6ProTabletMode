@@ -27,7 +27,7 @@ Use tablet_mode.c for performance, tablet_mode_pitch_comp.c for accuracy. Furthe
 - [ ] Provide different approaches for execution events
   - [x] Polling using while-loop with nanosleep
   - [ ] Event-based using inotify for event-driven architecture instead of while loop with nanosleep
-- [ ] Add systemctl logging events
+- [x] Add systemctl logging events
 
 ## Performance
 ### Simplification
