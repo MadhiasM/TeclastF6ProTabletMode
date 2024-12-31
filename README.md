@@ -6,16 +6,16 @@ Use tablet_mode.c as middle ground between performance and accuracy, table_mode_
 Event-driven approach is not possible as it triggers are not supported by sensor driver. `poll` and `inotify` are not efficient due to volatility of raw sensor data. Hence, while-loop with nanosleep is used to avoid busy-wait
 
 ## Installation
-### Clone Repository
+### 1) Clone Repository
 ```
 git clone https://github.com/MadhiasM/TeclastF6ProTabletMode.git
 ```
-### a) Automated
+### 2a) Automated
 #### Makefile
 ```
 make
 ```
-### b) Manualy
+### 2b) Manualy
 #### Compile Service
 ```
 gcc -o tablet_mode tablet_mode.c -lsystemd
