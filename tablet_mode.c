@@ -124,7 +124,6 @@ void update_mode(float val, float thresh, int dev, int *mod) {
 int main() {
     struct timespec ts = { .tv_sec = SLEEP_TIME, .tv_nsec = 0 }; // 1 Sekunde
 
-
     // TODO: Retrieve from device config in 60-sensor.hwdb or udev rules instead of hardcoding
     // Mount matrices for base and display
     MountMatrix base_matrix = {{{0, 1, 0}, {1, 0, 0}, {0, 0, 1}}};
@@ -178,6 +177,7 @@ int main() {
         More importantly, the sign of the x component of the normal vector compared to the sign of either x component will show if we are above or below 180° hinge angle
         */
         float determinant = corrected_base[1] * corrected_display[2] - corrected_base[2] * corrected_display[1];
+        printf("DET:    %.2f\n", determinant);
 
         // TODO: ADD AS IFDEF, so the check for roll threshold and hinge angle hysteresis can be quickly commented out
         // Check if in tablet mode based on determinant sign with hysteresis. emit update on mode change

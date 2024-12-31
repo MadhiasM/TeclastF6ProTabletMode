@@ -1,2 +1,0 @@
-gcc -o get_mount_matrix_udev get_mount_matrix_udev.c -ludev
-gcc -o simulate_tablet_mode simulate_tablet_mode.c -lm
